@@ -1,0 +1,993 @@
+<TaskerData sr="" dvi="1" tv="5.9.3">
+	<dmetric>1080.0,2159.0</dmetric>
+	<Profile sr="prof10" ve="2">
+		<cdate>1573628932195</cdate>
+		<clp>true</clp>
+		<edate>1577001458225</edate>
+		<flags>1</flags>
+		<id>10</id>
+		<limit>true</limit>
+		<mid0>11</mid0>
+		<nme>Sms Received</nme>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof243" ve="2">
+		<cdate>1574630639046</cdate>
+		<clp>true</clp>
+		<edate>1578059450707</edate>
+		<id>243</id>
+		<limit>true</limit>
+		<mid0>234</mid0>
+		<mid1>246</mid1>
+		<nme>Init</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%PSF_myname</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PSF_language</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%PSF_senders</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%PSF_receipients</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof39" ve="2">
+		<cdate>1577609272904</cdate>
+		<clp>true</clp>
+		<edate>1578059460371</edate>
+		<flags>8</flags>
+		<id>39</id>
+		<limit>true</limit>
+		<mid0>36</mid0>
+		<nme>SMSP - SMS (received) v1.0</nme>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">numer_to_filter</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1599590815762</cdate>
+		<name>AUtomaTISTIC_comms</name>
+		<pids>10,243,39</pids>
+		<scenes>YesNo,SMSP - Panel,TextInput,ArrayOperations</scenes>
+		<tids>38,234,245,11,36,236,240,246,244,247,242,235</tids>
+	</Project>
+	<Scene sr="sceneArrayOperations">
+		<cdate>1574627066371</cdate>
+		<edate>1574632190639</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>893</heightPort>
+		<nme>ArrayOperations</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>702</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,696,248,0,108,696,148</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">%Text1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>5,281,692,99,5,281,692,99</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3">%entry1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>5,404,696,99,5,404,696,99</geom>
+			<Str sr="arg0" ve="3">TextEdit2</Str>
+			<Str sr="arg1" ve="3">%entry2</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>5,528,692,108,5,528,692,108</geom>
+			<Str sr="arg0" ve="3">TextEdit3</Str>
+			<Str sr="arg1" ve="3">%entry3</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<EditTextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,651,696,100,0,651,696,100</geom>
+			<Str sr="arg0" ve="3">TextEdit4</Str>
+			<Str sr="arg1" ve="3">%entry4</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<ButtonElement sr="elements5" ve="3">
+			<clickTask>244</clickTask>
+			<flags>4</flags>
+			<geom>0,775,351,99,0,775,351,99</geom>
+			<Str sr="arg0" ve="3">ButtonCancel</Str>
+			<Str sr="arg1" ve="3">%button_cancel</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>245</clickTask>
+			<flags>4</flags>
+			<geom>360,775,337,99,360,775,337,99</geom>
+			<Str sr="arg0" ve="3">ButtonOk</Str>
+			<Str sr="arg1" ve="3">%button_ok</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">ArrayOperations</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneSMSP - Panel">
+		<cdate>1576670427387</cdate>
+		<edate>1599590987319</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>800</heightPort>
+		<nme>SMSP - Panel</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1000</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,1000,800,0,0,1000,800</geom>
+			<Str sr="arg0" ve="3">Background</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF424242</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="20"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>38</clickTask>
+			<flags>4</flags>
+			<geom>0,700,1000,100,0,700,1000,100</geom>
+			<Str sr="arg0" ve="3">Text (button) [close]</Str>
+			<Str sr="arg1" ve="3">CLOSE</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,0,1000,150,50,0,900,700</geom>
+			<Str sr="arg0" ve="3">Text (title)</Str>
+			<Str sr="arg1" ve="3">SISTEMA DE ASISTENCIA</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>0,159,1000,180,101,251,900,150</geom>
+			<Str sr="arg0" ve="3">Text (body) [1]</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="17"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,335,1000,180,101,251,900,150</geom>
+			<Str sr="arg0" ve="3">Text (body) [2]</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="17"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>0,557,1000,100,101,251,900,150</geom>
+			<Str sr="arg0" ve="3">Text (body) [3]</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">SMSP - Panel</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneTextInput">
+		<cdate>1574629208543</cdate>
+		<edate>1574632712017</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>443</heightPort>
+		<nme>TextInput</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>702</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,696,183,0,0,696,183</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">%text1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>5,208,692,99,5,208,692,99</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3">%input1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>242</clickTask>
+			<flags>4</flags>
+			<geom>0,328,266,114,0,328,266,114</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">%button1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>247</clickTask>
+			<flags>4</flags>
+			<geom>426,329,266,114,0,328,266,114</geom>
+			<Str sr="arg0" ve="3">Button2</Str>
+			<Str sr="arg1" ve="3">%button2</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+	</Scene>
+	<Scene sr="sceneYesNo">
+		<cdate>1574625403177</cdate>
+		<edate>1574718712479</edate>
+		<heightLand>473</heightLand>
+		<heightPort>473</heightPort>
+		<nme>YesNo</nme>
+		<widthLand>702</widthLand>
+		<widthPort>702</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,1,696,297,54,152,593,321</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">%Text1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="5"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>236</clickTask>
+			<flags>4</flags>
+			<geom>5,322,346,148,54,349,297,124</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">%button1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>240</clickTask>
+			<flags>4</flags>
+			<geom>375,322,322,148,54,349,297,124</geom>
+			<Str sr="arg0" ve="3">Button2</Str>
+			<Str sr="arg1" ve="3">%button2</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">YesNo</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task11">
+		<cdate>1573628961656</cdate>
+		<edate>1574710599197</edate>
+		<id>11</id>
+		<nme>Forward SMS To...</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%sender</Str>
+			<Str sr="arg1" ve="3">%PSF_senders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%sender</lhs>
+					<op>2</op>
+					<rhs>%SMSRF</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3"> %SMSRF:
+===============================
+%SMSRB
+===============================
+%Greetings %PSF_myname</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>41</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%PSF_receipients</Str>
+			<Str sr="arg1" ve="3">%message</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>40</code>
+		</Action>
+	</Task>
+	<Task sr="task234">
+		<cdate>1574624394198</cdate>
+		<edate>1577001435591</edate>
+		<id>234</id>
+		<nme>Init</nme>
+		<Action sr="act0" ve="7">
+			<code>300</code>
+			<label>select language</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>46</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">YesNo</Str>
+		</Action>
+	</Task>
+	<Task sr="task235">
+		<cdate>1574625128356</cdate>
+		<edate>1576099903812</edate>
+		<id>235</id>
+		<nme>1st Run / Setup</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PSF_language</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">Kies aub een taal. / Please select a language.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">Wilt u alles opnieuw instellen?</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%button_yes</Str>
+			<Str sr="arg1" ve="3">Ja</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%button_no</Str>
+			<Str sr="arg1" ve="3">Annuleren</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PSF_language</lhs>
+					<op>2</op>
+					<rhs>EN</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">Do you wish to reinitialize?</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%button_yes</Str>
+			<Str sr="arg1" ve="3">Ok</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%button_no</Str>
+			<Str sr="arg1" ve="3">Cancel</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">YesNo</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%utbutton</lhs>
+					<op>2</op>
+					<rhs>negative</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%button_yes</Str>
+			<Str sr="arg1" ve="3">NL</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PSF_language</lhs>
+					<op>2</op>
+					<rhs>NL</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%PSF_msg</Str>
+			<Str sr="arg1" ve="3">Dit is een automatisch bericht;Van:</Str>
+			<Str sr="arg2" ve="3">;</Str>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%PSF_msg</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">Met vriendelijke groet, de smartphone van</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PSF_language</lhs>
+					<op>2</op>
+					<rhs>EN</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%PSF_msg</Str>
+			<Str sr="arg1" ve="3">This is an automated message.;From:</Str>
+			<Str sr="arg2" ve="3">;</Str>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%PSF_msg</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">Kind regards, the smartphone of</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%button_no</Str>
+			<Str sr="arg1" ve="3">EN</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">YesNo</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PSF_language</Str>
+			<Str sr="arg1" ve="3">NL</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%utbutton</lhs>
+					<op>2</op>
+					<rhs>positive</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PSF_language</Str>
+			<Str sr="arg1" ve="3">EN</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%utbutton</lhs>
+					<op>2</op>
+					<rhs>negative</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%1stRunComplete</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PSF_language</lhs>
+					<op>2</op>
+					<rhs>NL</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task236">
+		<cdate>1574625561327</cdate>
+		<edate>1574625561327</edate>
+		<id>236</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Str sr="arg1" ve="3">%option1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task240">
+		<cdate>1574625561327</cdate>
+		<edate>1574625561327</edate>
+		<id>240</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Str sr="arg1" ve="3">%option2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task242">
+		<cdate>1574629599632</cdate>
+		<edate>1574629599632</edate>
+		<id>242</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Str sr="arg1" ve="3">%option1,%input1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">TextInput</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task244">
+		<cdate>1574631665081</cdate>
+		<edate>1574631665081</edate>
+		<id>244</id>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">ArrayOperations</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task245">
+		<cdate>1574631716681</cdate>
+		<edate>1574631716681</edate>
+		<id>245</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%results</Str>
+			<Str sr="arg1" ve="3">%entry1, %entry2, %entry3, %entry4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">ArrayOperations</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task246">
+		<cdate>1574632272472</cdate>
+		<edate>1574632314966</edate>
+		<id>246</id>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Sms Received</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task247">
+		<cdate>1574629599632</cdate>
+		<edate>1574629599632</edate>
+		<id>247</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Str sr="arg1" ve="3">%option2,%input1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">TextInput</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1576670257254</cdate>
+		<edate>1599590973730</edate>
+		<id>36</id>
+		<nme>SMSP - Parse Data</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>2</op>
+					<rhs>*data_to_parse*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%sms_a</Str>
+			<Str sr="arg1" ve="3">%SMSRB</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%sms_b</Str>
+			<Str sr="arg1" ve="3">%splitter_b</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">SMSP - Panel</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">SMSP - Panel</Str>
+			<Str sr="arg1" ve="3">Text (body) [1]</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">- Expediente -&lt;br&gt;
+&lt;b&gt;&lt;font color='#00897B'&gt;%sms_a(&gt;)&lt;/font&gt;&lt;/b&gt;</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">SMSP - Panel</Str>
+			<Str sr="arg1" ve="3">Text (body) [2]</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">- Código -&lt;br&gt;
+&lt;b&gt;&lt;font color='#0D95FF'&gt;%sms_b(&lt;)&lt;/font&gt;&lt;/b&gt;</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">SMSP - Panel</Str>
+			<Str sr="arg1" ve="3">Text (body) [3]</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">&lt;i&gt;&lt;font color='#9E9E9E'&gt;%time2  (%time1)&lt;/font&gt;&lt;/i&gt;</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%sms_b</Str>
+			<Str sr="arg1" ve="3">%SMSRB</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>123</code>
+			<label>Get Date &amp; Time</label>
+			<Str sr="arg0" ve="3">date +'%H:%M:%S_%d/%m/%Y'</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%time</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%splitter_a</Str>
+			<Str sr="arg1" ve="3">expediente:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%splitter_b</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%sms_a</Str>
+			<Str sr="arg1" ve="3">%splitter_a</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%sms_a</Str>
+			<Str sr="arg1" ve="3">%sms_a(&lt;)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%sms_a</Str>
+			<Str sr="arg1" ve="3">:</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task38">
+		<cdate>1576671870243</cdate>
+		<edate>1576671870243</edate>
+		<id>38</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">SMSP - Panel</Str>
+		</Action>
+	</Task>
+</TaskerData>
