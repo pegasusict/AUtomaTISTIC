@@ -1,10 +1,11 @@
 # AUtomaTISTIC
 AUtomaTISTIC is a Tasker/WatchMaker based Personal Assistance System running on and/or utilising smartphone, smartwatch (WatchMaker watch: TMI2) and headset
 
-## Credits
-I do believe in "credit where credit is due" but at present I don't have all the names at hand.
-I would like to thank the developers of Tasker and WatchMaker for the possibilities they have given! Kudos!!!
-I will review my sources in the upcoming months to see who's name should be included in this section. If you feel your name should be here as well, open an issue which should include your name/handle and link to the source you're referring to and I'll review your request which I assume will be honoured in most cases.
+## Credits ##
+_I would like to thank the developers of Tasker and WatchMaker for the possibilities they have given! Kudos!!!_
+
+<sub>I do believe in "credit where credit is due" but at present I don't have all the names at hand.
+I will review my sources in the upcoming months to see who's name should be included in this section. If you feel your name should be here as well, open an issue which should include your name/handle and link to the source you're referring to and I'll review your request.</sub>
 
 ## Current stage of development:
 I'm currently remodeling the code to utilize dynamic setup, user interface & storage/synchronisation, which means most of the tasks are being rewritten, UI elements are being drafted & designed and options need to be researched.
