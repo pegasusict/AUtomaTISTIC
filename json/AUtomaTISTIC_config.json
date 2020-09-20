@@ -1,0 +1,95 @@
+{
+  "operators": {
+    "eq": "==",
+    "ne": "<>",
+    "lt": "<",
+    "le": "<=",
+    "gt": ">",
+    "ge": ">="
+  },
+  "formats": {
+    "date": "yyyymmdd",
+    "time": "HHiiss",
+    "time_short": "HHii",
+    "battery": [
+      "op1",
+      "val1",
+      "op2",
+      "val2",
+      "op3",
+      "val3",
+      "op4",
+      "val4",
+      "op5",
+      "val5"
+    ],
+    "wifi_states": [
+      "off",
+      "disconnected",
+      "in_range",
+      "connected"
+    ],
+    "signal": "dBi",
+    "wind": [
+      "Bft",
+      "direction 0-359deg"
+    ],
+    "Precipitation": [
+      "type",
+      "amount"
+    ],
+    "Precipitation_type": [
+      "drizzle",
+      "rain",
+      "hail",
+      "snow"
+    ],
+    "Precipitation_amount": "mm/hr",
+    "temperature": {
+      "unit": "celsius",
+      "input": [
+        "op1",
+        "val1",
+        "op2",
+        "val2",
+        "op3",
+        "val3",
+        "op4",
+        "val4",
+        "op5",
+        "val5"
+      ]
+    },
+    "address": [
+      "street",
+      "housenumber",
+      "pc",
+      "city",
+      "state",
+      "country"
+    ],
+    "gps": [
+      "lat_dec",
+      "long_dec"
+    ],
+    "radius": "m",
+    "sun": {
+      "sunrise": "time_short",
+      "sunset": "time_short"
+    },
+    "moon": {
+      "moonrise": "time_short",
+      "moonset": "time_short",
+      "phase": "date",
+      "phases": [
+        "new",
+        "first",
+        "full",
+        "last"
+      ]
+    },
+    "AppInForeGround": [
+      "AppPackage"
+    ]
+  }
+}

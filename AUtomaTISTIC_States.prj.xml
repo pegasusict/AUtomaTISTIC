@@ -1,1331 +1,1354 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
-	<Profile sr="prof107" ve="2">
-		<cdate>1574287441106</cdate>
-		<clp>true</clp>
-		<edate>1579817777812</edate>
-		<flags>25</flags>
-		<id>107</id>
-		<mid0>93</mid0>
-		<nme>🚦📆🧮█</nme>
-		<pri>50</pri>
-		<Day sr="con0">
-			<wday0>1</wday0>
-			<wday1>2</wday1>
-			<wday2>3</wday2>
-			<wday3>4</wday3>
-			<wday4>5</wday4>
-		</Day>
-		<State sr="con1" ve="2">
-			<code>5</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">*vakantie</Str>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">Google:Samen Op Weg/Google:Dylan/Google:nancy.van.ofwegen@gmail.com</Str>
-		</State>
-		<Time sr="con2">
-			<fh>6</fh>
-			<fm>0</fm>
-			<th>-1</th>
-			<tm>-1</tm>
-		</Time>
-	</Profile>
-	<Profile sr="prof116" ve="2">
-		<cdate>1575411790424</cdate>
-		<clp>true</clp>
-		<edate>1579817734080</edate>
-		<flags>9</flags>
-		<id>116</id>
-		<mid0>103</mid0>
-		<mid1>103</mid1>
-		<nme>🚦🎧🎧█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>142</code>
-			<Str sr="arg0" ve="3">🚦🎧📡1█/🚦🎧📡2█/🚦🎧📡3█/🚦🎧🔌█</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof15" ve="2">
-		<cdate>1573748150823</cdate>
-		<cldm>60</cldm>
-		<clp>true</clp>
-		<edate>1595884810055</edate>
-		<flags>8</flags>
-		<id>15</id>
-		<mid0>93</mid0>
-		<nme>🚦🎧📡1█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>3</code>
-			<Str sr="arg0" ve="3">TRN</Str>
-			<Str sr="arg1" ve="3">%PPA_btheadset_main/%PPA_btheadset_main2</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof163" ve="2">
-		<cdate>1573889702408</cdate>
-		<clp>true</clp>
-		<edate>1592848695783</edate>
-		<flags>25</flags>
-		<id>163</id>
-		<mid0>93</mid0>
-		<nme>🛰️🏡█</nme>
-		<pri>50</pri>
-		<Loc sr="con0">
-			<cname>Home</cname>
-			<lat>52.13762664794922</lat>
-			<long>4.656020641326904</long>
-			<rad>100.0</rad>
-		</Loc>
-	</Profile>
-	<Profile sr="prof172" ve="2">
-		<cdate>1574287441106</cdate>
-		<clp>true</clp>
-		<edate>1599632961787</edate>
-		<flags>25</flags>
-		<id>172</id>
-		<mid0>18</mid0>
-		<mid1>43</mid1>
-		<nme>🚦📆🏢█</nme>
-		<pri>50</pri>
-		<Day sr="con0">
-			<wday0>2</wday0>
-			<wday1>3</wday1>
-			<wday2>5</wday2>
-			<wday3>6</wday3>
-		</Day>
-		<State sr="con1" ve="2">
-			<code>5</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">%AUT_WorkDayOff</Str>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">%AUT_WorkCalendar</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof2" ve="2">
-		<cdate>1573600842785</cdate>
-		<clp>true</clp>
-		<edate>1579817855770</edate>
-		<flags>9</flags>
-		<id>2</id>
-		<mid0>68</mid0>
-		<mid1>67</mid1>
-		<nme>🚦📱⚡█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>10</code>
-			<Int sr="arg0" val="0"/>
-		</State>
-	</Profile>
-	<Profile sr="prof210" ve="2">
-		<cdate>1574365164949</cdate>
-		<clp>true</clp>
-		<edate>1579735408340</edate>
-		<flags>1</flags>
-		<id>210</id>
-		<limit>true</limit>
-		<mid0>209</mid0>
-		<nme>_1st🔓</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>123</code>
-			<Int sr="arg0" val="1"/>
-		</State>
-		<Event sr="con1" ve="2">
-			<code>1000</code>
-		</Event>
-		<State sr="con2" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PPA_GoodMorningHasRun</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</State>
-	</Profile>
-	<Profile sr="prof216" ve="2">
-		<cdate>1574375287726</cdate>
-		<cldm>60</cldm>
-		<clp>true</clp>
-		<edate>1599023782089</edate>
-		<flags>8</flags>
-		<id>216</id>
-		<mid0>93</mid0>
-		<nme>🚦🎧🔌█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-		</State>
-	</Profile>
-	<Profile sr="prof231" ve="2">
-		<cdate>1574550841288</cdate>
-		<clp>true</clp>
-		<edate>1599023778418</edate>
-		<flags>9</flags>
-		<id>231</id>
-		<mid0>117</mid0>
-		<mid1>233</mid1>
-		<nme>🚦📡🔌█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>160</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="2"/>
-		</State>
-	</Profile>
-	<Profile sr="prof25" ve="2">
-		<cdate>1575892675273</cdate>
-		<cldm>60</cldm>
-		<clp>true</clp>
-		<edate>1594879184185</edate>
-		<flags>25</flags>
-		<id>25</id>
-		<mid0>93</mid0>
-		<nme>🚦⌚🔌█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>1138194991</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<BatteryLow>false</BatteryLow>
-					<BatteryLow-type>java.lang.Boolean</BatteryLow-type>
-					<Connected>true</Connected>
-					<Connected-type>java.lang.Boolean</Connected-type>
-					<CustomStateOff>&lt;null&gt;</CustomStateOff>
-					<CustomStateOff-type>java.lang.String</CustomStateOff-type>
-					<CustomStateOn>&lt;null&gt;</CustomStateOn>
-					<CustomStateOn-type>java.lang.String</CustomStateOn-type>
-					<PluggedIn>false</PluggedIn>
-					<PluggedIn-type>java.lang.Boolean</PluggedIn-type>
-					<ScreenOn>false</ScreenOn>
-					<ScreenOn-type>java.lang.Boolean</ScreenOn-type>
-					<WatchOnWrist>false</WatchOnWrist>
-					<WatchOnWrist-type>java.lang.Boolean</WatchOnWrist-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Connected: true</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
-					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>326dce48-bb20-4f52-966d-1730782b6f0b</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autowear.intent.IntentWearState</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autowear</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autowear.activity.ActivityConfigWearState</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof28" ve="2">
-		<cdate>1577316252273</cdate>
-		<clp>true</clp>
-		<edate>1581811509126</edate>
-		<flags>9</flags>
-		<id>28</id>
-		<mid0>29</mid0>
-		<nme>🚦⌚🔆█</nme>
-		<pri>50</pri>
-		<Event sr="con0" ve="2">
-			<code>1861978578</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<Command>&lt;null&gt;</Command>
-					<Command-type>java.lang.String</Command-type>
-					<CommandCaseInsensitive>false</CommandCaseInsensitive>
-					<CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
-					<CommandExact>false</CommandExact>
-					<CommandExact-type>java.lang.Boolean</CommandExact-type>
-					<CommandRegex>false</CommandRegex>
-					<CommandRegex-type>java.lang.Boolean</CommandRegex-type>
-					<Event>&amp;SCREENON&amp;</Event>
-					<Event-type>java.lang.String</Event-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Event: &amp;SCREENON&amp;</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
-					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
-					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>20000</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
-					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Event plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>c1230813-a1d8-49df-88da-260fb5555d7d</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autowear.intent.IntentCommand</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autowear</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autowear.activity.ActivityConfigCommand</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof4" ve="2">
-		<cdate>1573625863983</cdate>
-		<cldm>60</cldm>
-		<clp>true</clp>
-		<edate>1588194443494</edate>
-		<flags>9</flags>
-		<id>4</id>
-		<mid0>93</mid0>
-		<nme>🚦⌚⚡█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>537168431</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING>true</com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING>
-					<com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING-type>java.lang.Boolean</com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Charging</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.jarettmillard.localewear</Str>
-			<Str sr="arg2" ve="3">com.jarettmillard.localewear.ui.EditStateActivity</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof44" ve="2">
-		<cdate>1576310631946</cdate>
-		<clp>true</clp>
-		<edate>1579817842221</edate>
-		<flags>9</flags>
-		<id>44</id>
-		<mid0>93</mid0>
-		<nme>🚦📱⌚⚡█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>142</code>
-			<Str sr="arg0" ve="3">🚦📱⚡█</Str>
-		</State>
-		<State sr="con1" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>2</op>
-					<rhs>*🚦⌚⚡█*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>3</op>
-					<rhs>*🚦⌚🔌█*</rhs>
-				</Condition>
-			</ConditionList>
-		</State>
-	</Profile>
-	<Profile sr="prof45" ve="2">
-		<cdate>1576330687541</cdate>
-		<cldm>900</cldm>
-		<clp>true</clp>
-		<edate>1595999102698</edate>
-		<flags>8</flags>
-		<id>45</id>
-		<mid0>93</mid0>
-		<nme>🚦📡🏡🔭█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>170</code>
-			<Str sr="arg0" ve="3">draadje los/dl o_0 lb</Str>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-		</State>
-	</Profile>
-	<Profile sr="prof51" ve="2">
-		<cdate>1576330687541</cdate>
-		<cldm>900</cldm>
-		<clp>true</clp>
-		<edate>1579817803018</edate>
-		<flags>8</flags>
-		<id>51</id>
-		<mid0>93</mid0>
-		<nme>🚦📡🏢🔭█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>170</code>
-			<Str sr="arg0" ve="3">%PPA_Wifi_work</Str>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-		</State>
-	</Profile>
-	<Profile sr="prof6" ve="2">
-		<cdate>1576100542776</cdate>
-		<clp>true</clp>
-		<edate>1599570041990</edate>
-		<flags>9</flags>
-		<id>6</id>
-		<mid0>7</mid0>
-		<nme>🧩🔢█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%AUT_Version</lhs>
-					<op>3</op>
-					<rhs>%AUT_VersionMajor.%AUT_VersionMinor.%AUT_VersionPatch%AUT_VersionRelease</rhs>
-				</Condition>
-			</ConditionList>
-		</State>
-	</Profile>
-	<Profile sr="prof85" ve="2">
-		<cdate>1573748150823</cdate>
-		<cldm>60</cldm>
-		<clp>true</clp>
-		<edate>1579817748903</edate>
-		<flags>8</flags>
-		<id>85</id>
-		<mid0>93</mid0>
-		<nme>🚦🎧📡2█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>3</code>
-			<Str sr="arg0" ve="3">TRN</Str>
-			<Str sr="arg1" ve="3">%PPA_btheadset_mainr</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof88" ve="2">
-		<cdate>1573748150823</cdate>
-		<cldm>60</cldm>
-		<clp>true</clp>
-		<edate>1577182608175</edate>
-		<flags>8</flags>
-		<id>88</id>
-		<mid0>93</mid0>
-		<nme>🚦🎧📡3█</nme>
-		<pri>50</pri>
-		<State sr="con0" ve="2">
-			<code>3</code>
-			<Str sr="arg0" ve="3">BT</Str>
-			<Str sr="arg1" ve="3"/>
-		</State>
-	</Profile>
-	<Profile sr="prof92" ve="2">
-		<cdate>1573889702408</cdate>
-		<clp>true</clp>
-		<edate>1579817900617</edate>
-		<flags>25</flags>
-		<id>92</id>
-		<mid0>93</mid0>
-		<nme>🛰️🏢█</nme>
-		<pri>50</pri>
-		<Loc sr="con0">
-			<cname>Work</cname>
-			<lat>52.14049530029297</lat>
-			<long>4.644535064697266</long>
-			<rad>100.0</rad>
-		</Loc>
-	</Profile>
-	<Project sr="proj0" ve="2">
-		<cdate>1577520141782</cdate>
-		<name>AUtomaTISTIC States</name>
-		<pids>6,107,163,231,28,4,45,2,88,116,85,15,172,44,25,216,210,51,92</pids>
-		<psort>Alpha</psort>
-		<tids>18,29,125,43,93,21,233,103,7,67,68,209,117</tids>
-		<Img sr="icon" ve="2">
-			<nme>mw_device_developer_mode</nme>
-		</Img>
-	</Project>
-	<Task sr="task103">
-		<cdate>1574030486276</cdate>
-		<edate>1599408944636</edate>
-		<id>103</id>
-		<nme>AUT_headsetConnected</nme>
-		<pri>100</pri>
-		<rty>1</rty>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%bt_connected</Str>
-			<Str sr="arg1" ve="3">false</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%bt_battery_level</Str>
-			<Str sr="arg1" ve="3">-1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>358</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
-Address
-Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
-Battery Level
-% of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
-Paired
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
-Class
-The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
-Class Name
-The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
-Connected
-true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
-Encrypted
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
-Major Class
-The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
-Major Class Name
-The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
-Name
-Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
-Signal Strength
-Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
-Type
-Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%PPA_btheadset_main2</Str>
-			<Int sr="arg3" val="30"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%bt_connected</lhs>
-					<op>0</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset_battery</Str>
-			<Str sr="arg1" ve="3">%bt_battery_level</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset</Str>
-			<Str sr="arg1" ve="3">2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>358</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
-Address
-Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
-Battery Level
-% of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
-Paired
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
-Class
-The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
-Class Name
-The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
-Connected
-true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
-Encrypted
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
-Major Class
-The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
-Major Class Name
-The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
-Name
-Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
-Signal Strength
-Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
-Type
-Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%PPA_btheadset_mainr</Str>
-			<Int sr="arg3" val="30"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%bt_connected</lhs>
-					<op>0</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset_battery</Str>
-			<Str sr="arg1" ve="3">%bt_battery_level</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset</Str>
-			<Str sr="arg1" ve="3">3</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>37</code>
-			<label>wired headset connected</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>2</op>
-					<rhs>*🚦🎧🔌*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>358</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
-Address
-Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
-Battery Level
-% of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
-Paired
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
-Class
-The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
-Class Name
-The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
-Connected
-true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
-Encrypted
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
-Major Class
-The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
-Major Class Name
-The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
-Name
-Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
-Signal Strength
-Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
-Type
-Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%PPA_btheadset_backup</Str>
-			<Int sr="arg3" val="30"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%bt_connected</lhs>
-					<op>0</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset_battery</Str>
-			<Str sr="arg1" ve="3">%bt_battery_level</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset</Str>
-			<Str sr="arg1" ve="3">4</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="5"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset_battery</Str>
-			<Str sr="arg1" ve="3">-1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%volumelevels</Str>
-			<Str sr="arg1" ve="3">%PPA_volumelevels</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%volumelevels</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>307</code>
-			<Int sr="arg0">
-				<var>%volumelevels2</var>
-			</Int>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PPA_profile</lhs>
-					<op>3</op>
-					<rhs>outdoor</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset_battery</Str>
-			<Str sr="arg1" ve="3">-1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act35" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset</Str>
-			<Str sr="arg1" ve="3">-1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset</Str>
-			<Str sr="arg1" ve="3">9</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>2</op>
-					<rhs>*🚦🎧📡*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>358</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
-Address
-Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
-Battery Level
-% of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
-Paired
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
-Class
-The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
-Class Name
-The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
-Connected
-true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
-Encrypted
-true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
-Major Class
-The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
-Major Class Name
-The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
-Name
-Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
-Signal Strength
-Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
-Type
-Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%PPA_btheadset_main</Str>
-			<Int sr="arg3" val="30"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%bt_connected</lhs>
-					<op>0</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset_battery</Str>
-			<Str sr="arg1" ve="3">%bt_battery_level</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_headset</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_hardware_headset_m</nme>
-		</Img>
-	</Task>
-	<Task sr="task117">
-		<cdate>1575412058173</cdate>
-		<edate>1575412089116</edate>
-		<id>117</id>
-		<pri>50</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%WifiConnected</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>905</code>
-			<Int sr="arg0" val="2"/>
-		</Action>
-	</Task>
-	<Task sr="task125">
-		<cdate>1575612144521</cdate>
-		<edate>1599408883358</edate>
-		<id>125</id>
-		<nme>AUT_detectProfile</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">indoor</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs>*Headsets*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par1</lhs>
-					<op>3</op>
-					<rhs>%NULL</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%par1</lhs>
-					<op>3</op>
-					<rhs>''</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>2</op>
-					<rhs>*_🚲🚙█*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">outdoor</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>2</op>
-					<rhs>*_🛏️*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">sleep</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>2</op>
-					<rhs>*_🏡█*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">home</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>2</op>
-					<rhs>*_🏢█*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">work</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_communication_live_help</nme>
-		</Img>
-	</Task>
-	<Task sr="task18">
-		<cdate>1599632883526</cdate>
-		<edate>1599632925857</edate>
-		<id>18</id>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AUT_Workday</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task209">
-		<cdate>1540304593443</cdate>
-		<edate>1576310475975</edate>
-		<id>209</id>
-		<nme>GoodMorning</nme>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_GoodMorningHasRun</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task21">
-		<cdate>1575892281601</cdate>
-		<edate>1599215152906</edate>
-		<id>21</id>
-		<nme>WMsendVars</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>3</op>
-					<rhs>*__⌚WM✔️*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">%NULL</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">%par2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>profile</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">AUT_detectProfile</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">%profile</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%profile</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%headsetbattery</Str>
-			<Str sr="arg1" ve="3">%PPA_headset_battery</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%headset</Str>
-			<Str sr="arg1" ve="3">%PPA_headset</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>690818506</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>%headsetbattery</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<tasker_var>%headsetbattery</tasker_var>
-					<tasker_var-type>java.lang.String</tasker_var-type>
-					<tasker_var_name>%headsetbattery</tasker_var_name>
-					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
-			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>690818506</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>%headset</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<tasker_var>%headset</tasker_var>
-					<tasker_var-type>java.lang.String</tasker_var-type>
-					<tasker_var_name>%headset</tasker_var_name>
-					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
-			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>690818506</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>%profile</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<tasker_var>%profile</tasker_var>
-					<tasker_var-type>java.lang.String</tasker_var-type>
-					<tasker_var_name>%profile</tasker_var_name>
-					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
-			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%headset, %headsetbattery, %profile</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_action_swap_vertical_circle</nme>
-		</Img>
-	</Task>
-	<Task sr="task233">
-		<cdate>1574550900213</cdate>
-		<edate>1575412049415</edate>
-		<id>233</id>
-		<pri>1051</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%WifiConnected</Str>
-			<Str sr="arg1" ve="3">false</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>905</code>
-			<Int sr="arg0" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task29">
-		<cdate>1577316523791</cdate>
-		<edate>1596053251333</edate>
-		<id>29</id>
-		<nme>refreshVars</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>3</op>
-					<rhs>*__⌚WM✔️*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">WMsendVars</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task43">
-		<cdate>1599632935123</cdate>
-		<edate>1599632961787</edate>
-		<id>43</id>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AUT_Workday</Str>
-			<Str sr="arg1" ve="3">false</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task67">
-		<cdate>1573773528083</cdate>
-		<edate>1576354218913</edate>
-		<id>67</id>
-		<pri>1051</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_phone_charging</Str>
-			<Str sr="arg1" ve="3">false</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task68">
-		<cdate>1573773585132</cdate>
-		<edate>1575234694393</edate>
-		<id>68</id>
-		<pri>50</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%PPA_phone_charging</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task7">
-		<cdate>1576100549219</cdate>
-		<edate>1599570064520</edate>
-		<id>7</id>
-		<nme>AUT_SetVersion</nme>
-		<pri>50</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AUT_Version</Str>
-			<Str sr="arg1" ve="3">%AUT_VersionMajor.%AUT_VersionMinor.%AUT_VersionPatch%AUT_VersionRelease</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task93">
-		<cdate>1575411158810</cdate>
-		<edate>1599632807568</edate>
-		<id>93</id>
-		<nme>zeDummyTask</nme>
-		<pri>50</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%NULL</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_content_block</nme>
-		</Img>
-	</Task>
+  <Profile sr="prof107" ve="2">
+    <cdate>1574287441106</cdate>
+    <clp>true</clp>
+    <edate>1579817777812</edate>
+    <flags>25</flags>
+    <id>107</id>
+    <mid0>93</mid0>
+    <nme>🚦📆🧮█</nme>
+    <pri>50</pri>
+    <Day sr="con0">
+      <wday0>1</wday0>
+      <wday1>2</wday1>
+      <wday2>3</wday2>
+      <wday3>4</wday3>
+      <wday4>5</wday4>
+    </Day>
+    <State sr="con1" ve="2">
+      <code>5</code>
+      <pin>true</pin>
+      <Str sr="arg0" ve="3">*vakantie</Str>
+      <Str sr="arg1" ve="3"/>
+      <Str sr="arg2" ve="3"/>
+      <Int sr="arg3" val="0"/>
+      <Str sr="arg4" ve="3">Google:Samen Op Weg/Google:Dylan/Google:nancy.van.ofwegen@gmail.com</Str>
+    </State>
+    <Time sr="con2">
+      <fh>6</fh>
+      <fm>0</fm>
+      <th>-1</th>
+      <tm>-1</tm>
+    </Time>
+  </Profile>
+  <Profile sr="prof116" ve="2">
+    <cdate>1575411790424</cdate>
+    <clp>true</clp>
+    <edate>1579817734080</edate>
+    <flags>9</flags>
+    <id>116</id>
+    <mid0>103</mid0>
+    <mid1>103</mid1>
+    <nme>🚦🎧🎧█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>142</code>
+      <Str sr="arg0" ve="3">🚦🎧📡1█/🚦🎧📡2█/🚦🎧📡3█/🚦🎧🔌█</Str>
+    </State>
+  </Profile>
+  <Profile sr="prof15" ve="2">
+    <cdate>1573748150823</cdate>
+    <cldm>60</cldm>
+    <clp>true</clp>
+    <edate>1595884810055</edate>
+    <flags>8</flags>
+    <id>15</id>
+    <mid0>93</mid0>
+    <nme>🚦🎧📡1█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>3</code>
+      <Str sr="arg0" ve="3">TRN</Str>
+      <Str sr="arg1" ve="3">%AUT_CFG_BtHeadsets2/%AUT_CFG_BtHeadsets1</Str>
+    </State>
+  </Profile>
+  <Profile sr="prof163" ve="2">
+    <cdate>1573889702408</cdate>
+    <clp>true</clp>
+    <edate>1592848695783</edate>
+    <flags>25</flags>
+    <id>163</id>
+    <mid0>93</mid0>
+    <nme>🛰️🏡█</nme>
+    <pri>50</pri>
+    <Loc sr="con0">
+      <cname>Home</cname>
+      <lat>52.13762664794922</lat>
+      <long>4.656020641326904</long>
+      <rad>100.0</rad>
+    </Loc>
+  </Profile>
+  <Profile sr="prof172" ve="2">
+    <cdate>1574287441106</cdate>
+    <clp>true</clp>
+    <edate>1599632961787</edate>
+    <flags>25</flags>
+    <id>172</id>
+    <mid0>18</mid0>
+    <mid1>43</mid1>
+    <nme>🚦📆🏢█</nme>
+    <pri>50</pri>
+    <Day sr="con0">
+      <wday0>2</wday0>
+      <wday1>3</wday1>
+      <wday2>5</wday2>
+      <wday3>6</wday3>
+    </Day>
+    <State sr="con1" ve="2">
+      <code>5</code>
+      <pin>true</pin>
+      <Str sr="arg0" ve="3">%AUT_WorkDayOff</Str>
+      <Str sr="arg1" ve="3"/>
+      <Str sr="arg2" ve="3"/>
+      <Int sr="arg3" val="0"/>
+      <Str sr="arg4" ve="3">%AUT_WorkCalendar</Str>
+    </State>
+  </Profile>
+  <Profile sr="prof2" ve="2">
+    <cdate>1573600842785</cdate>
+    <clp>true</clp>
+    <edate>1579817855770</edate>
+    <flags>9</flags>
+    <id>2</id>
+    <mid0>68</mid0>
+    <mid1>67</mid1>
+    <nme>🚦📱⚡█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>10</code>
+      <Int sr="arg0" val="0"/>
+    </State>
+  </Profile>
+  <Profile sr="prof210" ve="2">
+    <cdate>1574365164949</cdate>
+    <clp>true</clp>
+    <edate>1579735408340</edate>
+    <flags>1</flags>
+    <id>210</id>
+    <limit>true</limit>
+    <mid0>209</mid0>
+    <nme>_1st🔓</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>123</code>
+      <Int sr="arg0" val="1"/>
+    </State>
+    <Event sr="con1" ve="2">
+      <code>1000</code>
+    </Event>
+    <State sr="con2" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_GoodMorningHasRun</lhs>
+          <op>13</op>
+          <rhs></rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+  <Profile sr="prof216" ve="2">
+    <cdate>1574375287726</cdate>
+    <cldm>60</cldm>
+    <clp>true</clp>
+    <edate>1599023782089</edate>
+    <flags>8</flags>
+    <id>216</id>
+    <mid0>93</mid0>
+    <nme>🚦🎧🔌█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>30</code>
+      <Int sr="arg0" val="0"/>
+    </State>
+  </Profile>
+  <Profile sr="prof231" ve="2">
+    <cdate>1574550841288</cdate>
+    <clp>true</clp>
+    <edate>1599023778418</edate>
+    <flags>9</flags>
+    <id>231</id>
+    <mid0>117</mid0>
+    <mid1>233</mid1>
+    <nme>🚦📡🔌█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>160</code>
+      <Str sr="arg0" ve="3"/>
+      <Str sr="arg1" ve="3"/>
+      <Str sr="arg2" ve="3"/>
+      <Int sr="arg3" val="2"/>
+    </State>
+  </Profile>
+  <Profile sr="prof25" ve="2">
+    <cdate>1575892675273</cdate>
+    <cldm>60</cldm>
+    <clp>true</clp>
+    <edate>1594879184185</edate>
+    <flags>25</flags>
+    <id>25</id>
+    <mid0>93</mid0>
+    <nme>🚦⌚🔌█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>1138194991</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <BatteryLow>false</BatteryLow>
+          <BatteryLow-type>java.lang.Boolean</BatteryLow-type>
+          <Connected>true</Connected>
+          <Connected-type>java.lang.Boolean</Connected-type>
+          <CustomStateOff>&lt;null&gt;</CustomStateOff>
+          <CustomStateOff-type>java.lang.String</CustomStateOff-type>
+          <CustomStateOn>&lt;null&gt;</CustomStateOn>
+          <CustomStateOn-type>java.lang.String</CustomStateOn-type>
+          <PluggedIn>false</PluggedIn>
+          <PluggedIn-type>java.lang.Boolean</PluggedIn-type>
+          <ScreenOn>false</ScreenOn>
+          <ScreenOn-type>java.lang.Boolean</ScreenOn-type>
+          <WatchOnWrist>false</WatchOnWrist>
+          <WatchOnWrist-type>java.lang.Boolean</WatchOnWrist-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Connected: true</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String
+          </com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0
+          </net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+          <net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer
+          </net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+          <plugininstanceid>326dce48-bb20-4f52-966d-1730782b6f0b</plugininstanceid>
+          <plugininstanceid-type>java.lang.String</plugininstanceid-type>
+          <plugintypeid>com.joaomgcd.autowear.intent.IntentWearState</plugintypeid>
+          <plugintypeid-type>java.lang.String</plugintypeid-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.joaomgcd.autowear</Str>
+      <Str sr="arg2" ve="3">com.joaomgcd.autowear.activity.ActivityConfigWearState</Str>
+    </State>
+  </Profile>
+  <Profile sr="prof28" ve="2">
+    <cdate>1577316252273</cdate>
+    <clp>true</clp>
+    <edate>1581811509126</edate>
+    <flags>9</flags>
+    <id>28</id>
+    <mid0>29</mid0>
+    <nme>🚦⌚🔆█</nme>
+    <pri>50</pri>
+    <Event sr="con0" ve="2">
+      <code>1861978578</code>
+      <pri>0</pri>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <Command>&lt;null&gt;</Command>
+          <Command-type>java.lang.String</Command-type>
+          <CommandCaseInsensitive>false</CommandCaseInsensitive>
+          <CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
+          <CommandExact>false</CommandExact>
+          <CommandExact-type>java.lang.Boolean</CommandExact-type>
+          <CommandRegex>false</CommandRegex>
+          <CommandRegex-type>java.lang.Boolean</CommandRegex-type>
+          <Event>&amp;SCREENON&amp;</Event>
+          <Event-type>java.lang.String</Event-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Event: &amp;SCREENON&amp;
+          </com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String
+          </com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+          <net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean
+          </net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+          <net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>20000
+          </net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+          <net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer
+          </net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Event plugininstanceid plugintypeid
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+          <plugininstanceid>c1230813-a1d8-49df-88da-260fb5555d7d</plugininstanceid>
+          <plugininstanceid-type>java.lang.String</plugininstanceid-type>
+          <plugintypeid>com.joaomgcd.autowear.intent.IntentCommand</plugintypeid>
+          <plugintypeid-type>java.lang.String</plugintypeid-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.joaomgcd.autowear</Str>
+      <Str sr="arg2" ve="3">com.joaomgcd.autowear.activity.ActivityConfigCommand</Str>
+    </Event>
+  </Profile>
+  <Profile sr="prof4" ve="2">
+    <cdate>1573625863983</cdate>
+    <cldm>60</cldm>
+    <clp>true</clp>
+    <edate>1588194443494</edate>
+    <flags>9</flags>
+    <id>4</id>
+    <mid0>93</mid0>
+    <nme>🚦⌚⚡█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>537168431</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING>true
+          </com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING>
+          <com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING-type>java.lang.Boolean
+          </com.jarettmillard.localewear.constants.SettingExtras.WEAR_CHARGING-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Charging</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String
+          </com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.jarettmillard.localewear</Str>
+      <Str sr="arg2" ve="3">com.jarettmillard.localewear.ui.EditStateActivity</Str>
+    </State>
+  </Profile>
+  <Profile sr="prof44" ve="2">
+    <cdate>1576310631946</cdate>
+    <clp>true</clp>
+    <edate>1579817842221</edate>
+    <flags>9</flags>
+    <id>44</id>
+    <mid0>93</mid0>
+    <nme>🚦📱⌚⚡█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>142</code>
+      <Str sr="arg0" ve="3">🚦📱⚡█</Str>
+    </State>
+    <State sr="con1" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <bool0>Or</bool0>
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>2</op>
+          <rhs>*🚦⌚⚡█*</rhs>
+        </Condition>
+        <Condition sr="c1" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>3</op>
+          <rhs>*🚦⌚🔌█*</rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+  <Profile sr="prof45" ve="2">
+    <cdate>1576330687541</cdate>
+    <cldm>900</cldm>
+    <clp>true</clp>
+    <edate>1595999102698</edate>
+    <flags>8</flags>
+    <id>45</id>
+    <mid0>93</mid0>
+    <nme>🚦📡🏡🔭█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>170</code>
+      <Str sr="arg0" ve="3">draadje los/dl o_0 lb</Str>
+      <Str sr="arg1" ve="3"/>
+      <Str sr="arg2" ve="3"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="0"/>
+    </State>
+  </Profile>
+  <Profile sr="prof51" ve="2">
+    <cdate>1576330687541</cdate>
+    <cldm>900</cldm>
+    <clp>true</clp>
+    <edate>1579817803018</edate>
+    <flags>8</flags>
+    <id>51</id>
+    <mid0>93</mid0>
+    <nme>🚦📡🏢🔭█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>170</code>
+      <Str sr="arg0" ve="3">%AUT_CFG_Wifi_SSID_Work</Str>
+      <Str sr="arg1" ve="3"/>
+      <Str sr="arg2" ve="3"/>
+      <Int sr="arg3" val="1"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="0"/>
+    </State>
+  </Profile>
+  <Profile sr="prof6" ve="2">
+    <cdate>1576100542776</cdate>
+    <clp>true</clp>
+    <edate>1599570041990</edate>
+    <flags>9</flags>
+    <id>6</id>
+    <mid0>7</mid0>
+    <nme>🧩🔢█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_Version</lhs>
+          <op>3</op>
+          <rhs>%AUT_VersionMajor.%AUT_VersionMinor.%AUT_VersionPatch%AUT_VersionRelease</rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+  <Profile sr="prof85" ve="2">
+    <cdate>1573748150823</cdate>
+    <cldm>60</cldm>
+    <clp>true</clp>
+    <edate>1579817748903</edate>
+    <flags>8</flags>
+    <id>85</id>
+    <mid0>93</mid0>
+    <nme>🚦🎧📡2█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>3</code>
+      <Str sr="arg0" ve="3">TRN</Str>
+      <Str sr="arg1" ve="3">%AUT_CFG_BtHeadsets3</Str>
+    </State>
+  </Profile>
+  <Profile sr="prof88" ve="2">
+    <cdate>1573748150823</cdate>
+    <cldm>60</cldm>
+    <clp>true</clp>
+    <edate>1577182608175</edate>
+    <flags>8</flags>
+    <id>88</id>
+    <mid0>93</mid0>
+    <nme>🚦🎧📡3█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>3</code>
+      <Str sr="arg0" ve="3">BT</Str>
+      <Str sr="arg1" ve="3"/>
+    </State>
+  </Profile>
+  <Profile sr="prof92" ve="2">
+    <cdate>1573889702408</cdate>
+    <clp>true</clp>
+    <edate>1579817900617</edate>
+    <flags>25</flags>
+    <id>92</id>
+    <mid0>93</mid0>
+    <nme>🛰️🏢█</nme>
+    <pri>50</pri>
+    <Loc sr="con0">
+      <cname>Work</cname>
+      <lat>52.14049530029297</lat>
+      <long>4.644535064697266</long>
+      <rad>100.0</rad>
+    </Loc>
+  </Profile>
+
+  <Task sr="task103">
+    <cdate>1574030486276</cdate>
+    <edate>1599408944636</edate>
+    <id>103</id>
+    <nme>AUT_headsetConnected</nme>
+    <pri>100</pri>
+    <rty>1</rty>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%bt_connected</Str>
+      <Str sr="arg1" ve="3">false</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%bt_battery_level</Str>
+      <Str sr="arg1" ve="3">-1</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act10" ve="7">
+      <code>43</code>
+    </Action>
+    <Action sr="act11" ve="7">
+      <code>358</code>
+      <se>false</se>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
+            Address
+            Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
+            Battery Level
+            % of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
+            Paired
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
+            Class
+            The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
+            Class Name
+            The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
+            Connected
+            true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
+            Encrypted
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
+            Major Class
+            The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
+            Major Class Name
+            The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
+            Name
+            Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
+            Signal Strength
+            Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
+            Type
+            Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+        </Vals>
+      </Bundle>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">%AUT_CFG_BtHeadsets1</Str>
+      <Int sr="arg3" val="30"/>
+    </Action>
+    <Action sr="act12" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%bt_connected</lhs>
+          <op>0</op>
+          <rhs>true</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act13" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_BtHeadsetBattery</Str>
+      <Str sr="arg1" ve="3">%bt_battery_level</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act14" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_HeadsetConnected</Str>
+      <Str sr="arg1" ve="3">2</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act15" ve="7">
+      <code>43</code>
+    </Action>
+    <Action sr="act16" ve="7">
+      <code>358</code>
+      <se>false</se>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
+            Address
+            Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
+            Battery Level
+            % of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
+            Paired
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
+            Class
+            The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
+            Class Name
+            The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
+            Connected
+            true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
+            Encrypted
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
+            Major Class
+            The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
+            Major Class Name
+            The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
+            Name
+            Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
+            Signal Strength
+            Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
+            Type
+            Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+        </Vals>
+      </Bundle>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">%AUT_CFG_BtHeadsets3</Str>
+      <Int sr="arg3" val="30"/>
+    </Action>
+    <Action sr="act17" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%bt_connected</lhs>
+          <op>0</op>
+          <rhs>true</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act18" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_BtHeadsetBattery</Str>
+      <Str sr="arg1" ve="3">%bt_battery_level</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act19" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_HeadsetConnected</Str>
+      <Str sr="arg1" ve="3">3</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act2" ve="7">
+      <code>37</code>
+      <label>wired headset connected</label>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>2</op>
+          <rhs>*🚦🎧🔌*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act20" ve="7">
+      <code>43</code>
+    </Action>
+    <Action sr="act21" ve="7">
+      <code>358</code>
+      <se>false</se>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
+            Address
+            Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
+            Battery Level
+            % of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
+            Paired
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
+            Class
+            The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
+            Class Name
+            The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
+            Connected
+            true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
+            Encrypted
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
+            Major Class
+            The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
+            Major Class Name
+            The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
+            Name
+            Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
+            Signal Strength
+            Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
+            Type
+            Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+        </Vals>
+      </Bundle>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">%AUT_CFG_BtHeadsets4</Str>
+      <Int sr="arg3" val="30"/>
+    </Action>
+    <Action sr="act22" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%bt_connected</lhs>
+          <op>0</op>
+          <rhs>true</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act23" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_BtHeadsetBattery</Str>
+      <Str sr="arg1" ve="3">%bt_battery_level</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act24" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_HeadsetConnected</Str>
+      <Str sr="arg1" ve="3">4</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act25" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act26" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act27" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act28" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act29" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="0"/>
+      <Int sr="arg1" val="5"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act3" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_BtHeadsetBattery</Str>
+      <Str sr="arg1" ve="3">-1</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act30" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%volumelevels</Str>
+      <Str sr="arg1" ve="3">%AUT_VolumeLevels</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act31" ve="7">
+      <code>590</code>
+      <Str sr="arg0" ve="3">%volumelevels</Str>
+      <Str sr="arg1" ve="3">,</Str>
+      <Int sr="arg2" val="1"/>
+    </Action>
+    <Action sr="act32" ve="7">
+      <code>307</code>
+      <Int sr="arg0">
+        <var>%volumelevels2</var>
+      </Int>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_Profile</lhs>
+          <op>3</op>
+          <rhs>outdoor</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act33" ve="7">
+      <code>43</code>
+    </Action>
+    <Action sr="act34" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_BtHeadsetBattery</Str>
+      <Str sr="arg1" ve="3">-1</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act35" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_HeadsetConnected</Str>
+      <Str sr="arg1" ve="3">-1</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act36" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act4" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_HeadsetConnected</Str>
+      <Str sr="arg1" ve="3">9</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act5" ve="7">
+      <code>43</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>2</op>
+          <rhs>*🚦🎧📡*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act6" ve="7">
+      <code>358</code>
+      <se>false</se>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%bt_address
+            Address
+            Bluetooth device's MAC address&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%bt_battery_level
+            Battery Level
+            % of battery available, or not set if unavailable. (Android 9+)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%bt_paired
+            Paired
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%bt_class
+            Class
+            The device's bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%bt_class_name
+            Class Name
+            The device's bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%bt_connected
+            Connected
+            true if the BT device is connected, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%bt_encrypted
+            Encrypted
+            true if there is at least one encrypted connection to this device, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%bt_major_class
+            Major Class
+            The device's major bluetooth class ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%bt_major_class_name
+            Major Class Name
+            The device's major bluetooth class name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%bt_name
+            Name
+            Bluetooth device's name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%bt_signal_strength
+            Signal Strength
+            Strength of the connection in dBm. Only available for connected and scanned devices.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%bt_type
+            Type
+            Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;
+          </net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+        </Vals>
+      </Bundle>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">%AUT_CFG_BtHeadsets2</Str>
+      <Int sr="arg3" val="30"/>
+    </Action>
+    <Action sr="act7" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%bt_connected</lhs>
+          <op>0</op>
+          <rhs>true</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act8" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_BtHeadsetBattery</Str>
+      <Str sr="arg1" ve="3">%bt_battery_level</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act9" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_HeadsetConnected</Str>
+      <Str sr="arg1" ve="3">1</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Img sr="icn" ve="2">
+      <nme>mw_hardware_headset_m</nme>
+    </Img>
+  </Task>
+  <Task sr="task117">
+    <cdate>1575412058173</cdate>
+    <edate>1575412089116</edate>
+    <id>117</id>
+    <pri>50</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%WifiConnected</Str>
+      <Str sr="arg1" ve="3">true</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+      <code>905</code>
+      <Int sr="arg0" val="2"/>
+    </Action>
+  </Task>
+  <Task sr="task125">
+    <cdate>1575612144521</cdate>
+    <edate>1599408883358</edate>
+    <id>125</id>
+    <nme>AUT_detectProfile</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">indoor</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <bool0>And</bool0>
+        <bool1>And</bool1>
+        <Condition sr="c0" ve="3">
+          <lhs>%par1</lhs>
+          <op>12</op>
+          <rhs>*Headsets*</rhs>
+        </Condition>
+        <Condition sr="c1" ve="3">
+          <lhs>%par1</lhs>
+          <op>3</op>
+          <rhs>%NULL</rhs>
+        </Condition>
+        <Condition sr="c2" ve="3">
+          <lhs>%par1</lhs>
+          <op>3</op>
+          <rhs>''</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act10" ve="7">
+      <code>43</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>2</op>
+          <rhs>*_🚲🚙█*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act11" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">outdoor</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act12" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act13" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act14" ve="7">
+      <code>126</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Str sr="arg4" ve="3"/>
+    </Action>
+    <Action sr="act2" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">%par1</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act3" ve="7">
+      <code>43</code>
+    </Action>
+    <Action sr="act4" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>2</op>
+          <rhs>*_🛏️*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act5" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">sleep</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act6" ve="7">
+      <code>43</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>2</op>
+          <rhs>*_🏡█*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act7" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">home</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act8" ve="7">
+      <code>43</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>2</op>
+          <rhs>*_🏢█*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act9" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">work</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Img sr="icn" ve="2">
+      <nme>mw_communication_live_help</nme>
+    </Img>
+  </Task>
+  <Task sr="task18">
+    <cdate>1599632883526</cdate>
+    <edate>1599632925857</edate>
+    <id>18</id>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_Workday</Str>
+      <Str sr="arg1" ve="3">true</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+  </Task>
+  <Task sr="task209">
+    <cdate>1540304593443</cdate>
+    <edate>1576310475975</edate>
+    <id>209</id>
+    <nme>GoodMorning</nme>
+    <pri>6</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_GoodMorningHasRun</Str>
+      <Str sr="arg1" ve="3">true</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+  </Task>
+  <Task sr="task21">
+    <cdate>1575892281601</cdate>
+    <edate>1599215152906</edate>
+    <id>21</id>
+    <nme>WMsendVars</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+      <code>137</code>
+      <Int sr="arg0" val="0"/>
+      <Str sr="arg1" ve="3"/>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>3</op>
+          <rhs>*__⌚WM✔️*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act1" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">%NULL</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act2" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%profile</Str>
+      <Str sr="arg1" ve="3">%par2</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%par1</lhs>
+          <op>2</op>
+          <rhs>profile</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act3" ve="7">
+      <code>130</code>
+      <Str sr="arg0" ve="3">AUT_detectProfile</Str>
+      <Int sr="arg1">
+        <var>%priority+1</var>
+      </Int>
+      <Str sr="arg2" ve="3">%profile</Str>
+      <Str sr="arg3" ve="3"/>
+      <Str sr="arg4" ve="3">%profile</Str>
+      <Int sr="arg5" val="0"/>
+      <Int sr="arg6" val="0"/>
+      <Str sr="arg7" ve="3"/>
+      <Int sr="arg8" val="0"/>
+      <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act4" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%headsetbattery</Str>
+      <Str sr="arg1" ve="3">%AUT_BtHeadsetBattery</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act5" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%headset</Str>
+      <Str sr="arg1" ve="3">%AUT_HeadsetConnected</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act6" ve="7">
+      <code>690818506</code>
+      <se>false</se>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.twofortyfouram.locale.intent.extra.BLURB>%headsetbattery</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String
+          </com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+          <tasker_var>%headsetbattery</tasker_var>
+          <tasker_var-type>java.lang.String</tasker_var-type>
+          <tasker_var_name>%headsetbattery</tasker_var_name>
+          <tasker_var_name-type>java.lang.String</tasker_var_name-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+      <Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+      <Int sr="arg3" val="0"/>
+    </Action>
+    <Action sr="act7" ve="7">
+      <code>690818506</code>
+      <se>false</se>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.twofortyfouram.locale.intent.extra.BLURB>%headset</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String
+          </com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+          <tasker_var>%headset</tasker_var>
+          <tasker_var-type>java.lang.String</tasker_var-type>
+          <tasker_var_name>%headset</tasker_var_name>
+          <tasker_var_name-type>java.lang.String</tasker_var_name-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+      <Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+      <Int sr="arg3" val="0"/>
+    </Action>
+    <Action sr="act8" ve="7">
+      <code>690818506</code>
+      <se>false</se>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.twofortyfouram.locale.intent.extra.BLURB>%profile</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String
+          </com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String
+          </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+          <tasker_var>%profile</tasker_var>
+          <tasker_var-type>java.lang.String</tasker_var-type>
+          <tasker_var_name>%profile</tasker_var_name>
+          <tasker_var_name-type>java.lang.String</tasker_var_name-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+      <Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+      <Int sr="arg3" val="0"/>
+    </Action>
+    <Action sr="act9" ve="7">
+      <code>548</code>
+      <on>false</on>
+      <Str sr="arg0" ve="3">%headset, %headsetbattery, %profile</Str>
+      <Int sr="arg1" val="1"/>
+    </Action>
+    <Img sr="icn" ve="2">
+      <nme>mw_action_swap_vertical_circle</nme>
+    </Img>
+  </Task>
+  <Task sr="task233">
+    <cdate>1574550900213</cdate>
+    <edate>1575412049415</edate>
+    <id>233</id>
+    <pri>1051</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%WifiConnected</Str>
+      <Str sr="arg1" ve="3">false</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+      <code>905</code>
+      <Int sr="arg0" val="3"/>
+    </Action>
+  </Task>
+  <Task sr="task29">
+    <cdate>1577316523791</cdate>
+    <edate>1596053251333</edate>
+    <id>29</id>
+    <nme>refreshVars</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+      <code>137</code>
+      <Int sr="arg0" val="0"/>
+      <Str sr="arg1" ve="3"/>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PACTIVE</lhs>
+          <op>3</op>
+          <rhs>*__⌚WM✔️*</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act1" ve="7">
+      <code>130</code>
+      <Str sr="arg0" ve="3">WMsendVars</Str>
+      <Int sr="arg1">
+        <var>%priority</var>
+      </Int>
+      <Str sr="arg2" ve="3"/>
+      <Str sr="arg3" ve="3"/>
+      <Str sr="arg4" ve="3"/>
+      <Int sr="arg5" val="0"/>
+      <Int sr="arg6" val="0"/>
+      <Str sr="arg7" ve="3"/>
+      <Int sr="arg8" val="0"/>
+      <Int sr="arg9" val="0"/>
+    </Action>
+  </Task>
+  <Task sr="task43">
+    <cdate>1599632935123</cdate>
+    <edate>1599632961787</edate>
+    <id>43</id>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_Workday</Str>
+      <Str sr="arg1" ve="3">false</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+  </Task>
+  <Task sr="task67">
+    <cdate>1573773528083</cdate>
+    <edate>1576354218913</edate>
+    <id>67</id>
+    <pri>1051</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_PhoneCharging</Str>
+      <Str sr="arg1" ve="3">false</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+  </Task>
+  <Task sr="task68">
+    <cdate>1573773585132</cdate>
+    <edate>1575234694393</edate>
+    <id>68</id>
+    <pri>50</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_PhoneCharging</Str>
+      <Str sr="arg1" ve="3">true</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+  </Task>
+  <Task sr="task7">
+    <cdate>1576100549219</cdate>
+    <edate>1599570064520</edate>
+    <id>7</id>
+    <nme>AUT_SetVersion</nme>
+    <pri>50</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AUT_Version</Str>
+      <Str sr="arg1" ve="3">%AUT_VersionMajor.%AUT_VersionMinor.%AUT_VersionPatch%AUT_VersionRelease</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+    </Action>
+  </Task>
+  <Task sr="task93">
+    <cdate>1575411158810</cdate>
+    <edate>1599632807568</edate>
+    <id>93</id>
+    <nme>zeDummyTask</nme>
+    <pri>50</pri>
+    <rty>2</rty>
+    <Action sr="act0" ve="7">
+      <code>126</code>
+      <Str sr="arg0" ve="3">%NULL</Str>
+      <Int sr="arg1" val="1"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Str sr="arg4" ve="3"/>
+    </Action>
+    <Img sr="icn" ve="2">
+      <nme>mw_content_block</nme>
+    </Img>
+  </Task>
 </TaskerData>

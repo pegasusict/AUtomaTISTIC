@@ -1,0 +1,98 @@
+<TaskerData sr="" dvi="1" tv="5.9.3">
+  <Scene sr="sceneAUT_UI_Bar_HeadsetBattery">
+    <cdate>1536274361942</cdate>
+    <edate>1599857616481</edate>
+    <gridSize>10</gridSize>
+    <heightLand>1080</heightLand>
+    <heightPort>2159</heightPort>
+    <nme>AUT_UI_Bar_HeadsetBattery</nme>
+    <widthLand>15</widthLand>
+    <widthPort>15</widthPort>
+    <RectElement sr="elements0">
+      <flags>4</flags>
+      <geom>0,0,1,4,0,0,1,4</geom>
+      <Str sr="arg0" ve="3">Bar</Str>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">%AUT_UI_Bar_HeadsetBattery_Color</Str>
+      <Str sr="arg3" ve="3"/>
+      <Int sr="arg4" val="0"/>
+      <Str sr="arg5" ve="3">#FF000000</Str>
+      <Int sr="arg6" val="0"/>
+      <Int sr="arg7" val="0"/>
+    </RectElement>
+    <PropertiesElement sr="props">
+      <Int sr="arg0" val="0"/>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">#00000000</Str>
+      <Int sr="arg3" val="0"/>
+      <Str sr="arg4" ve="3">AUT_UI_Bar_HeadsetBattery</Str>
+      <Str sr="arg5" ve="3"/>
+      <Img sr="arg6" ve="2"/>
+      <Str sr="arg7" ve="3"/>
+    </PropertiesElement>
+  </Scene>
+  <Scene sr="sceneAUT_UI_Bar_PhoneBattery">
+    <cdate>1536274361942</cdate>
+    <edate>1599857587782</edate>
+    <gridSize>10</gridSize>
+    <heightLand>15</heightLand>
+    <heightPort>15</heightPort>
+    <nme>AUT_UI_Bar_PhoneBattery</nme>
+    <widthLand>2159</widthLand>
+    <widthPort>1080</widthPort>
+    <RectElement sr="elements0">
+      <flags>4</flags>
+      <geom>0,0,1,4,0,0,1,4</geom>
+      <Str sr="arg0" ve="3">Bar</Str>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">%AUT_UI_Bar_PhoneBattery_Color</Str>
+      <Str sr="arg3" ve="3"/>
+      <Int sr="arg4" val="0"/>
+      <Str sr="arg5" ve="3">#FF000000</Str>
+      <Int sr="arg6" val="0"/>
+      <Int sr="arg7" val="0"/>
+    </RectElement>
+    <PropertiesElement sr="props">
+      <Int sr="arg0" val="0"/>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">#00000000</Str>
+      <Int sr="arg3" val="0"/>
+      <Str sr="arg4" ve="3">AUT_UI_Bar_PhoneBattery</Str>
+      <Str sr="arg5" ve="3"/>
+      <Img sr="arg6" ve="2"/>
+      <Str sr="arg7" ve="3"/>
+    </PropertiesElement>
+  </Scene>
+  <Scene sr="sceneAUT_UI_Bar_WatchBattery">
+    <cdate>1536274361942</cdate>
+    <edate>1599857641295</edate>
+    <gridSize>10</gridSize>
+    <heightLand>15</heightLand>
+    <heightPort>15</heightPort>
+    <nme>AUT_UI_Bar_WatchBattery</nme>
+    <widthLand>2159</widthLand>
+    <widthPort>1080</widthPort>
+    <RectElement sr="elements0">
+      <flags>4</flags>
+      <geom>0,0,1,4,0,0,1,4</geom>
+      <Str sr="arg0" ve="3">Bar</Str>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">%AUT_UI_Bar_WatchBattery_Color</Str>
+      <Str sr="arg3" ve="3"/>
+      <Int sr="arg4" val="0"/>
+      <Str sr="arg5" ve="3">#FF000000</Str>
+      <Int sr="arg6" val="0"/>
+      <Int sr="arg7" val="0"/>
+    </RectElement>
+    <PropertiesElement sr="props">
+      <Int sr="arg0" val="0"/>
+      <Int sr="arg1" val="0"/>
+      <Str sr="arg2" ve="3">#00000000</Str>
+      <Int sr="arg3" val="0"/>
+      <Str sr="arg4" ve="3">AUT_UI_Bar_WatchBattery</Str>
+      <Str sr="arg5" ve="3"/>
+      <Img sr="arg6" ve="2"/>
+      <Str sr="arg7" ve="3"/>
+    </PropertiesElement>
+  </Scene>
+</TaskerData>

@@ -1,0 +1,286 @@
+<TaskerData sr="" dvi="1" tv="5.9.3">
+  <!-- BootTime -->
+  <Profile sr="prof165" ve="2">
+    <id>165</id>
+    <nme>_🎬</nme>
+    <mid0>167</mid0>
+    <cdate>1574287028083</cdate>
+    <edate>1599738815318</edate>
+    <cldm>8553600</cldm>
+    <flags>19</flags>
+    <pri>50</pri>
+    <Event sr="con0" ve="2">
+      <code>411</code>
+      <pri>0</pri>
+    </Event>
+  </Profile>
+  <!-- WatchMakerPluginEnabled -->
+  <Profile sr="prof121" ve="2">
+    <id>121</id>
+    <nme>__⌚WM✔️</nme>
+    <mid0>93</mid0>
+    <cdate>1575529422265</cdate>
+    <edate>1581812278917</edate>
+    <flags>11</flags>
+    <lk>true</lk>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_Plugins_WatchMakerEnabled</lhs>
+          <op>12</op>
+          <rhs></rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+
+  <!-- Wired Headset Connected-->
+  <Profile sr="prof216" ve="2">
+    <id>216</id>
+    <nme>🚦🎧🔌█</nme>
+    <mid0>93</mid0>
+    <cdate>1574375287726</cdate>
+    <edate>1599023782089</edate>
+    <cldm>60</cldm>
+    <flags>10</flags>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>30</code>
+      <Int sr="arg0" val="0"/>
+    </State>
+  </Profile>
+  <!-- HeadsetConnected -->
+  <Profile sr="prof116" ve="2">
+    <id>116</id>
+    <nme>🚦🎧🎧█</nme>
+    <mid0>103</mid0>
+    <mid1>103</mid1>
+    <cdate>1575411790424</cdate>
+    <edate>1579817734080</edate>
+    <flags>11</flags>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>142</code>
+      <Str sr="arg0" ve="3">🚦🎧*</Str>
+    </State>
+  </Profile>
+  <!-- BtHeadsetConnected -->
+  <Profile sr="prof15" ve="2">
+    <id>15</id>
+    <nme>🚦🎧📡█</nme>
+    <mid0>93</mid0>
+    <cdate>1573748150823</cdate>
+    <edate>1595884810055</edate>
+    <cldm>60</cldm>
+    <flags>10</flags>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>3</code>
+      <Str sr="arg0" ve="3"></Str>
+      <Str sr="arg1" ve="3"></Str>
+    </State>
+  </Profile>
+
+  <!-- AUT_WM_CycleWatch -->
+  <Profile sr="prof123" ve="2">
+    <id>123</id>
+    <nme>▶️⌚♻️</nme>
+    <mid0>124</mid0>
+    <cdate>1575582532155</cdate>
+    <edate>1581660429073</edate>
+    <flags>19</flags>
+    <lk>true</lk>
+    <pri>50</pri>
+    <Day sr="con0">
+      <wday0>1</wday0>
+    </Day>
+    <Time sr="con1">
+      <fh>7</fh>
+      <fm>0</fm>
+      <th>7</th>
+      <tm>0</tm>
+    </Time>
+  </Profile>
+<!-- First Unlock-->
+  <Profile sr="prof210" ve="2">
+    <id>210</id>
+    <nme>_1st🔓</nme>
+    <mid0>209</mid0>
+    <cdate>1574365164949</cdate>
+    <edate>1579735408340</edate>
+    <flags>3</flags>
+    <limit>true</limit>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>123</code>
+      <Int sr="arg0" val="1"/>
+    </State>
+    <Event sr="con1" ve="2">
+      <code>1000</code>
+    </Event>
+    <State sr="con2" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_GoodMorningHasRun</lhs>
+          <op>13</op>
+          <rhs></rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+
+  <!-- AUT_COMM -->
+  <!-- AUT_COMM_SmsReceived -->
+  <Profile sr="prof10" ve="2">
+    <id>10</id>
+    <nme>AUT_COMM_SmsReceived</nme>
+    <mid0>11</mid0>
+    <cdate>1573628932195</cdate>
+    <edate>1577001458225</edate>
+    <flags>3</flags>
+    <limit>true</limit>
+    <Event sr="con0" ve="2">
+      <code>7</code>
+      <pri>0</pri>
+      <Int sr="arg0" val="0"/>
+      <Str sr="arg1" ve="3"/>
+      <Str sr="arg2" ve="3"/>
+      <Str sr="arg3" ve="3"/>
+    </Event>
+  </Profile>
+  <!-- AUT_COMM_SmsReceived_a -->
+  <Profile sr="prof39" ve="2">
+    <id>39</id>
+    <nme>AUT_COMM_SmsReceived_a</nme>
+    <mid0>36</mid0>
+    <cdate>1577609272904</cdate>
+    <edate>1578059460371</edate>
+    <flags>10</flags>
+    <limit>true</limit>
+    <Event sr="con0" ve="2">
+      <code>7</code>
+      <pri>0</pri>
+      <Int sr="arg0" val="0"/>
+      <Str sr="arg1" ve="3">number_to_filter</Str>
+      <Str sr="arg2" ve="3"/>
+      <Str sr="arg3" ve="3"/>
+    </Event>
+  </Profile>
+  <!-- AUT_COMM_Init -->
+  <Profile sr="prof243" ve="2">
+    <id>243</id>
+    <nme>AUT_COMM_Init</nme>
+    <mid0>234</mid0>
+    <mid1>246</mid1>
+    <cdate>1574630639046</cdate>
+    <edate>1599771982173</edate>
+    <flags>2</flags>
+    <limit>true</limit>
+    <State sr="con0" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_CFG_MyName</lhs>
+          <op>13</op>
+          <rhs></rhs>
+        </Condition>
+        <bool0>Or</bool0>
+        <Condition sr="c1" ve="3">
+          <lhs>%AUT_CFG_COMM_Language</lhs>
+          <op>13</op>
+          <rhs></rhs>
+        </Condition>
+        <bool1>Or</bool1>
+        <Condition sr="c2" ve="3">
+          <lhs>%AUT_COMM_Forward_Senders</lhs>
+          <op>13</op>
+          <rhs></rhs>
+        </Condition>
+        <bool2>Or</bool2>
+        <Condition sr="c3" ve="3">
+          <lhs>%AUT_COMM_Forward_Recipients</lhs>
+          <op>13</op>
+          <rhs></rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+  <!-- /AUT_COMM -->
+
+
+  <!-- cron -->
+  <Profile sr="prof22" ve="2">
+    <id>22</id>
+    <nme>⚙️</nme>
+    <mid0>122</mid0>
+    <cdate>1575373794376</cdate>
+    <edate>1599370665417</edate>
+    <cldm>300</cldm>
+    <flags>11</flags>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>143</code>
+      <pin>true</pin>
+      <Str sr="arg0" ve="3">cron</Str>
+    </State>
+    <State sr="con1" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%PENABLED</lhs>
+          <op>2</op>
+          <rhs>*__⚙️✔️*</rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+
+  <!--AW plugin enabled-->
+  <Profile sr="prof24" ve="2">
+    <id>24</id>
+    <nme>__⌚AW✔️</nme>
+    <mid0>93</mid0>
+    <cdate>1575529422265</cdate>
+    <edate>1581811836891</edate>
+    <flags>11</flags>
+    <lk>true</lk>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_Plugins_Watch_Enabled</lhs>
+          <op>12</op>
+          <rhs></rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+
+  <!-- RingerVolume To Media Volume-->
+  <Profile sr="prof19" ve="2">
+    <id>19</id>
+    <nme>▶️🎵☎️🔊</nme>
+    <mid0>46</mid0>
+    <cdate>1573746205369</cdate>
+    <edate>1599370551352</edate>
+    <flags>27</flags>
+    <pri>50</pri>
+    <Event sr="con0" ve="2">
+      <code>3050</code>
+      <pri>0</pri>
+      <Str sr="arg0" ve="3">%VOLM</Str>
+      <Str sr="arg1" ve="3"/>
+      <Int sr="arg2" val="0"/>
+    </Event>
+    <State sr="con1" ve="2">
+      <code>142</code>
+      <pin>true</pin>
+      <Str sr="arg0" ve="3">_🛏️█</Str>
+    </State>
+  </Profile>
+
+</TaskerData>

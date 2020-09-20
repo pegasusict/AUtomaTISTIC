@@ -1,0 +1,343 @@
+<TaskerData sr="" dvi="1" tv="5.9.3">
+  <!-- VARIABLES -->
+  <Variable sr="vars41">
+    <n>%AUT_Version</n>
+    <v>0.9.0-DEV</v>
+  </Variable>
+  <Variable sr="vars1">
+    <n>%AUT_VersionMajor</n>
+    <v>0</v>
+  </Variable>
+  <Variable sr="vars75">
+    <n>%AUT_VersionMinor</n>
+    <v>9</v>
+  </Variable>
+  <Variable sr="vars38">
+    <n>%AUT_VersionPatch</n>
+    <v>0</v>
+  </Variable>
+  <Variable sr="vars73">
+    <n>%AUT_VersionRelease</n>
+    <v>-DEV</v>
+  </Variable>
+
+
+  <!-- "CONSTANTS" -->
+  <Variable sr="vars3">
+    <n>%AUT_ThisSuite</n>
+    <v>Aut&lt;i&gt;&lt;u&gt;omat&lt;/u&gt;&lt;/i&gt;istic</v>
+  </Variable>
+  <Variable sr="vars45">
+    <n>%AUT_ThisSuiteRaw</n>
+    <v>automatistic</v>
+  </Variable>
+  <Variable sr="vars65">
+    <n>%AUT_About</n>
+    <v>&lt;h1&gt;%AUT_ThisSuite v%AUT_Version&lt;/h1&gt;
+      &lt;h2&gt;About&lt;/h2&gt;
+      &lt;p&gt;
+      &lt;h4 style="display:inline"&gt;%AUT_ThisSuite&lt;/h4&gt; is being developed to aid me with various tasks and
+      information I tend to lose track of thanks to my autism spectrum disorder.
+      &lt;/p&gt;
+      &lt;h2&gt;Current Functionality:&lt;/h2&gt;
+      &lt;h3&gt;Based on:&lt;/h3&gt;
+      &lt;ul&gt;
+      &lt;li&gt;location&lt;/li&gt;
+      &lt;li&gt;time&lt;/li&gt;
+      &lt;li&gt;day&lt;/li&gt;
+      &lt;li&gt;wifi connection&lt;/li&gt;
+      &lt;li&gt;profile state&lt;/li&gt;
+      &lt;li&gt;charger&lt;/li&gt;
+      &lt;li&gt;smartwatch charging&lt;/li&gt;
+      &lt;li&gt;headset (wired or bt) connected&lt;/li&gt;
+      &lt;/ul&gt;
+      etc...
+      &lt;h3&gt;Actions:&lt;/h3&gt;
+      &lt;ul&gt;
+      &lt;li&gt;brightness&lt;/li&gt;
+      &lt;li&gt;volumelevels&lt;/li&gt;
+      &lt;li&gt;start/stop apps&lt;/li&gt;
+      &lt;li&gt;wear theatermode&lt;/li&gt;
+      &lt;li&gt;wifi&lt;/li&gt;
+      &lt;li&gt;thethering&lt;/li&gt;
+      &lt;/ul&gt;
+      etc...
+      &lt;h2&gt;roadmap&lt;/h2&gt;
+      &lt;p&gt;
+      &gt; dnd mode, triggered by calendar event containing a keyword from [array].
+      &lt;/p&gt;
+    </v>
+  </Variable>
+  <Variable sr="vars97">
+    <n>%AUT_ProfileDep_000001_power</n>
+    <v>1</v>
+  </Variable>
+  <Variable sr="vars27">
+    <n>%AUT_ProfileDep_000002_battery</n>
+    <v>2</v>
+  </Variable>
+  <Variable sr="vars71">
+    <n>%AUT_ProfileDep_000004_dnd</n>
+    <v>4</v>
+  </Variable>
+  <Variable sr="vars80">
+    <n>%AUT_ProfileDep_000008_calendar</n>
+    <v>8</v>
+  </Variable>
+  <Variable sr="vars6">
+    <n>%AUT_ProfileDep_000016_location</n>
+    <v>16</v>
+  </Variable>
+  <Variable sr="vars48">
+    <n>%AUT_ProfileDep_000032_internet_conn_type</n>
+    <v>32</v>
+  </Variable>
+  <Variable sr="vars31">
+    <n>%AUT_ProfileDep_000064_wifi_state</n>
+    <v>64</v>
+  </Variable>
+  <Variable sr="vars10">
+    <n>%AUT_ProfileDep_000128_bt_state</n>
+    <v>128</v>
+  </Variable>
+  <Variable sr="vars46">
+    <n>%AUT_ProfileDep_000256_wifi_ssid</n>
+    <v>256</v>
+  </Variable>
+  <Variable sr="vars1">
+    <n>%AUT_ProfileDep_000512_bt_headset</n>
+    <v>512</v>
+  </Variable>
+  <Variable sr="vars7">
+    <n>%AUT_ProfileDep_001024_bt_headset_battery</n>
+    <v>1024</v>
+  </Variable>
+  <Variable sr="vars59">
+    <n>%AUT_ProfileDep_002048_smartwatch_connected</n>
+    <v>2048</v>
+  </Variable>
+  <Variable sr="vars101">
+    <n>%AUT_ProfileDep_004096_smartwatch_battery</n>
+    <v>4096</v>
+  </Variable>
+  <Variable sr="vars19">
+    <n>%AUT_ProfileDep_008192_smartwatch_charging</n>
+    <v>8192</v>
+  </Variable>
+  <Variable sr="vars94">
+    <n>%AUT_ProfileDep_016384_dayofweek</n>
+    <v>16384</v>
+  </Variable>
+  <Variable sr="vars49">
+    <n>%AUT_ProfileDep_032768_weather</n>
+    <v>32768</v>
+  </Variable>
+  <Variable sr="vars70">
+    <n>%AUT_ProfileDep_065536_sun</n>
+    <v>65536</v>
+  </Variable>
+  <Variable sr="vars87">
+    <n>%AUT_ProfileDep_131072_app_foreground</n>
+    <v>131072</v>
+  </Variable>
+  <Variable sr="vars0">
+    <n>%AUT_Languages</n>
+    <v>EN,NL</v>
+  </Variable>
+  <!-- DEFAULTS -->
+  <Variable sr="vars54">
+    <n>%AUT_DEF_deamon_cycle</n>
+    <v>300</v>
+  </Variable>
+  <Variable sr="vars0">
+    <n>%AUT_DEF_Language</n>
+    <v>EN</v>
+  </Variable>
+  <Variable sr="vars76">
+    <n>%AUT_DEF_ProcessLimit</n>
+    <v>50</v>
+  </Variable>
+  <Variable sr="vars2">
+    <n>%AUT_DEF_REM_Lists</n>
+    <v>Chores,Finance,General,Home,Medical,Projects,Routine,School,Travel</v>
+  </Variable>
+  <Variable sr="vars28">
+    <n>%AUT_DEF_REM_Quiet_Time_Start</n>
+    <v>22:00</v>
+  </Variable>
+  <Variable sr="vars64">
+    <n>%AUT_DEF_REM_Quiet_Time_End</n>
+    <v>08:00</v>
+  </Variable>
+  <Variable sr="vars29">
+    <n>%AUT_DEF_REM_Back_Color</n>
+    <v>#000000</v>
+  </Variable>
+  <Variable sr="vars67">
+    <n>%AUT_DEF_REM_Frequency</n>
+    <v>0.5</v>
+  </Variable>
+  <Variable sr="vars69">
+    <n>%AUT_DEF_REM_Dir</n>
+    <v>My Reminders</v>
+  </Variable>
+  <Variable sr="vars40">
+    <n>%AUT_DEF_REM_JSON</n>
+    <v>{"Reminders": []}</v>
+  </Variable>
+  <Variable sr="vars44">
+    <n>%AUT_DEF_REM_Cur_List</n>
+    <v>Rem_List_All</v>
+  </Variable>
+
+  <!-- user config -->
+  <Variable sr="vars14">
+    <n>%AUT_CFG_MyName</n>
+    <v>Mattijs Snepvangers</v>
+  </Variable>
+  <Variable sr="vars34">
+    <n>%AUT_CFG_AdguardPass</n>
+    <v>WvSFXU</v>
+  </Variable>
+  <Variable sr="vars53">
+    <n>%AUT_CFG_BtHeadset_Names</n>
+    <v>Main,Main2,Main2r,Backup</v>
+  </Variable>
+  <Variable sr="vars53">
+    <n>%AUT_CFG_BtHeadsets</n>
+    <v>EB:06:EF:19:75:68,00:87:77:36:09:B9,00:87:77:36:0D:12,00:00:00:00:48:51</v>
+  </Variable>
+  <Variable sr="vars95">
+    <n>%AUT_CFG_Wifi_Names</n>
+    <v>home,work</v>
+  </Variable>
+  <Variable sr="vars95">
+    <n>%AUT_CFG_Wifi_Ssids</n>
+    <v>dl o_0 lb,Robotogroep</v>
+  </Variable>
+  <Variable sr="vars78">
+    <n>%AUT_CFG_COMM_Forward_Receipients</n>
+    <v>+31641267460</v>
+  </Variable>
+  <Variable sr="vars39">
+    <n>%Rem_Icons_Dark</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hl_ab_content_discard
+      android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_creditcard
+      android.resource://net.dinglisch.android.taskerm/hl_device_access_alarms
+      android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_home
+      android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_pill
+      android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_puzzle
+      android.resource://net.dinglisch.android.taskerm/hl_ab_navigation_accept
+      android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_book
+      android.resource://net.dinglisch.android.taskerm/hl_alerts_and_states_airplane_mode_on
+    </v>
+  </Variable>
+  <Variable sr="vars35">
+    <n>%AUT_REM_Icon_A</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hd_device_access_alarms</v>
+  </Variable>
+  <Variable sr="vars36">
+    <n>%AUT_REM_Icon_B</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hd_ab_navigation_accept</v>
+  </Variable>
+  <Variable sr="vars37">
+    <n>%AUT_REM_Icon_C</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_home</v>
+  </Variable>
+  <Variable sr="vars30">
+    <n>%AUT_REM_Icon_D</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_pill</v>
+  </Variable>
+  <Variable sr="vars32">
+    <n>%AUT_REM_Icon_E</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_puzzle</v>
+  </Variable>
+  <Variable sr="vars33">
+    <n>%AUT_REM_Icon_F</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hd_alerts_and_states_airplane_mode_on</v>
+  </Variable>
+  <Variable sr="vars47">
+    <n>%AUT_REM_Icon_Dark_A</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hl_device_access_alarms</v>
+  </Variable>
+  <Variable sr="vars50">
+    <n>%AUT_REM_Icon_Dark_B</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hl_ab_navigation_accept</v>
+  </Variable>
+  <Variable sr="vars51">
+    <n>%AUT_REM_Icon_Dark_C</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_home</v>
+  </Variable>
+  <Variable sr="vars52">
+    <n>%AUT_REM_Icon_Dark_D</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_pill</v>
+  </Variable>
+  <Variable sr="vars58">
+    <n>%AUT_REM_Icon_Dark_E</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hl_aaa_ext_puzzle</v>
+  </Variable>
+  <Variable sr="vars60">
+    <n>%AUT_REM_Icon_Dark_F</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hl_alerts_and_states_airplane_mode_on</v>
+  </Variable>
+  <Variable sr="vars57">
+    <n>%IBM_data</n>
+    <v>08-09-2020 (23:13:59)
+      %evtprm1
+    </v>
+  </Variable>
+  <Variable sr="vars74">
+    <n>%AUT_CFG_COMM_Forward_Senders</n>
+    <v>Ben,Telfort,DigiD</v>
+  </Variable>
+  <Variable sr="vars77">
+    <n>%IBM_counter</n>
+    <v>1</v>
+  </Variable>
+  <Variable sr="vars79">
+    <n>%Rem_Icons</n>
+    <v>android.resource://net.dinglisch.android.taskerm/hd_ab_content_discard
+      android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_creditcard
+      android.resource://net.dinglisch.android.taskerm/hd_device_access_alarms
+      android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_home
+      android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_pill
+      android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_puzzle
+      android.resource://net.dinglisch.android.taskerm/hd_ab_navigation_accept
+      android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_book
+      android.resource://net.dinglisch.android.taskerm/hd_alerts_and_states_airplane_mode_on
+    </v>
+  </Variable>
+  <Variable sr="vars82">
+    <n>%Rem_Freq_Text</n>
+    <v>Alerts for overdue reminders will fire every 30 minutes.</v>
+  </Variable>
+  <Variable sr="vars86">
+    <n>%Rem_List_B</n>
+    <v>Routine</v>
+  </Variable>
+  <Variable sr="vars88">
+    <n>%Rem_List_A</n>
+    <v>General</v>
+  </Variable>
+  <Variable sr="vars9">
+    <n>%AUT_Comm_Texts_Greetings_NL</n>
+    <v>Mvg, de digitale assistent van</v>
+  </Variable>
+  <Variable sr="vars90">
+    <n>%Rem_List_D</n>
+    <v>Medical</v>
+  </Variable>
+  <Variable sr="vars91">
+    <n>%Rem_List_C</n>
+    <v>Home</v>
+  </Variable>
+  <Variable sr="vars92">
+    <n>%Rem_List_F</n>
+    <v>Travel</v>
+  </Variable>
+  <Variable sr="vars93">
+    <n>%Rem_List_E</n>
+    <v>Projects</v>
+  </Variable>
+
+</TaskerData>

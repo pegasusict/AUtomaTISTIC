@@ -1,0 +1,243 @@
+<taskerdata>
+  <!--AUT UI Bar Phone battery timer 3mins-->
+  <Profile sr="prof65" ve="2">
+    <cdate>1598815003306</cdate>
+    <edate>1599805041847</edate>
+    <flags>2</flags>
+    <id>65</id>
+    <mid0>52</mid0>
+    <nme>AUT_UI_Bars_Phone_Timer_3mins</nme>
+    <Time sr="con0">
+      <fh>-1</fh>
+      <fm>-1</fm>
+      <rep>2</rep>
+      <repval>3</repval>
+      <th>-1</th>
+      <tm>-1</tm>
+    </Time>
+  </Profile>
+  <!--AUT UI Bar Watch battery timer 5mins-->
+  <Profile sr="prof69" ve="2">
+    <cdate>1598815003306</cdate>
+    <edate>1599856795756</edate>
+    <flags>2</flags>
+    <id>69</id>
+    <mid0>12</mid0>
+    <nme>AUT_UI_Bars_Watch_Timer_5mins</nme>
+    <Time sr="con0">
+      <fh>-1</fh>
+      <fm>-1</fm>
+      <rep>2</rep>
+      <repval>5</repval>
+      <th>-1</th>
+      <tm>-1</tm>
+    </Time>
+  </Profile>
+  <!--AUT UI Bar Headset battery timer 3mins-->
+  <Profile sr="prof70" ve="2">
+    <cdate>1598815003306</cdate>
+    <edate>1599805114948</edate>
+    <flags>2</flags>
+    <id>70</id>
+    <mid0>72</mid0>
+    <nme>AUT_UI_Bars_Headset_Timer_3mins</nme>
+    <Time sr="con0">
+      <fh>-1</fh>
+      <fm>-1</fm>
+      <rep>2</rep>
+      <repval>3</repval>
+      <th>-1</th>
+      <tm>-1</tm>
+    </Time>
+  </Profile>
+  <!--AUT UI Bar Headset battery enable-->
+  <Profile sr="prof71" ve="2">
+    <cdate>1598815003296</cdate>
+    <edate>1599856918516</edate>
+    <flags>2</flags>
+    <id>71</id>
+    <mid0>66</mid0>
+    <nme>AUT_UI_Bars_Headset</nme>
+    <State sr="con0" ve="2">
+      <code>165</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%AUT_UI_Headset_Battery</lhs>
+          <op>9</op>
+          <rhs>%AUT_headset_battery</rhs>
+        </Condition>
+      </ConditionList>
+    </State>
+  </Profile>
+  <Profile sr="prof73" ve="2">
+    <cdate>1574240461581</cdate>
+    <edate>1577226293971</edate>
+    <flags>26</flags>
+    <id>73</id>
+    <mid0>164</mid0>
+    <nme>_🚲🚙█</nme>
+    <pri>50</pri>
+    <State sr="con0" ve="2">
+      <code>142</code>
+      <pin>true</pin>
+      <Str sr="arg0" ve="3">🚦📡🔌█</Str>
+    </State>
+    <State sr="con1" ve="2">
+      <code>142</code>
+      <pin>true</pin>
+      <Str sr="arg0" ve="3">_🏡█</Str>
+    </State>
+    <State sr="con2" ve="2">
+      <code>142</code>
+      <pin>true</pin>
+      <Str sr="arg0" ve="3">_🏢█</Str>
+    </State>
+  </Profile>
+  <!--AUT UI Bar watch battery enable-->
+  <Profile sr="prof74" ve="2">
+    <cdate>1598815003296</cdate>
+    <edate>1599772230642</edate>
+    <flags>2</flags>
+    <id>74</id>
+    <limit>true</limit>
+    <mid0>9</mid0>
+    <nme>AUT_UI_Bars_Watch</nme>
+    <Event sr="con0" ve="2">
+      <code>203</code>
+    </Event>
+  </Profile>
+  <!--AUT UI Bar headset battery timer 5mins-->
+  <Profile sr="prof77" ve="2">
+    <cdate>1598815003306</cdate>
+    <edate>1599856839074</edate>
+    <flags>2</flags>
+    <id>77</id>
+    <mid0>72</mid0>
+    <nme>AUT_UI_Bars_Headset_Timer_5mins</nme>
+    <Time sr="con0">
+      <fh>-1</fh>
+      <fm>-1</fm>
+      <rep>2</rep>
+      <repval>5</repval>
+      <th>-1</th>
+      <tm>-1</tm>
+    </Time>
+  </Profile>
+  <!--AUT UI Bar Watch battery timer 3mins-->
+  <Profile sr="prof55" ve="2">
+    <cdate>1598815003306</cdate>
+    <edate>1599856744535</edate>
+    <flags>2</flags>
+    <id>55</id>
+    <mid0>12</mid0>
+    <nme>AUT_UI_Bars_Watch_Timer_3mins</nme>
+    <Time sr="con0">
+      <fh>-1</fh>
+      <fm>-1</fm>
+      <rep>2</rep>
+      <repval>3</repval>
+      <th>-1</th>
+      <tm>-1</tm>
+    </Time>
+  </Profile>
+  <!--  AUT UI BARS Phone battery enable-->
+  <Profile sr="prof62" ve="2">
+    <cdate>1598815003296</cdate>
+    <edate>1599772170282</edate>
+    <flags>2</flags>
+    <id>62</id>
+    <mid0>40</mid0>
+    <nme>AUT_UI_Bars_Phone</nme>
+    <Event sr="con0" ve="2">
+      <code>203</code>
+    </Event>
+  </Profile>
+  <!--  AUT UI Hide Bars when app active-->
+  <Profile sr="prof59" ve="2">
+    <cdate>1598815003286</cdate>
+    <edate>1599772101004</edate>
+    <flags>2</flags>
+    <id>59</id>
+    <limit>true</limit>
+    <mid0>48</mid0>
+    <mid1>35</mid1>
+    <nme>AUT_UI_Bars_HideWhenAppActive</nme>
+    <App sr="con0" ve="2">
+      <cls0>org.telegram.ui.LaunchActivity</cls0>
+      <flags>2</flags>
+      <label0>Telegram</label0>
+      <pkg0>org.telegram.messenger</pkg0>
+    </App>
+  </Profile>
+  <!--AUT UI Bar Phone battery timer 5mins-->
+  <Profile sr="prof60" ve="2">
+    <cdate>1598815003290</cdate>
+    <edate>1599805079612</edate>
+    <flags>2</flags>
+    <id>60</id>
+    <mid0>52</mid0>
+    <nme>AUT_UI_Bars_Phone_Timer_5mins</nme>
+    <Time sr="con0">
+      <fh>-1</fh>
+      <fm>-1</fm>
+      <rep>2</rep>
+      <repval>5</repval>
+      <th>-1</th>
+      <tm>-1</tm>
+    </Time>
+  </Profile>
+
+  <!--  AUT UI Portrait-->
+  <Profile sr="prof63" ve="2">
+    <cdate>1598815003300</cdate>
+    <edate>1599772703784</edate>
+    <flags>2</flags>
+    <id>63</id>
+    <mid0>54</mid0>
+    <nme>AUT_UI_Portrait</nme>
+    <State sr="con0" ve="2">
+      <code>122</code>
+      <Int sr="arg0" val="0"/>
+    </State>
+  </Profile>
+  <!--  AUT UI Landscape -->
+  <Profile sr="prof58" ve="2">
+    <cdate>1598815003281</cdate>
+    <edate>1599772321779</edate>
+    <flags>2</flags>
+    <id>58</id>
+    <mid0>54</mid0>
+    <nme>AUT_UI_Landscape</nme>
+    <State sr="con0" ve="2">
+      <code>122</code>
+      <Int sr="arg0" val="1"/>
+    </State>
+  </Profile>
+
+  <!--  AUT UI Startup-->
+  <Profile sr="prof61" ve="2">
+    <cdate>1598815003291</cdate>
+    <edate>1599804918221</edate>
+    <flags>2</flags>
+    <id>61</id>
+    <mid0>57</mid0>
+    <nme>AUT_UI_Startup</nme>
+    <Event sr="con0" ve="2">
+      <code>411</code>
+      <pri>0</pri>
+    </Event>
+  </Profile>
+  <!--  AUT UI shutdown-->
+  <Profile sr="prof64" ve="2">
+    <cdate>1598815003302</cdate>
+    <edate>1599804908747</edate>
+    <flags>2</flags>
+    <id>64</id>
+    <mid0>41</mid0>
+    <nme>AUT_UI_Shutdown</nme>
+    <Event sr="con0" ve="2">
+      <code>413</code>
+    </Event>
+  </Profile>
+
+</taskerdata>

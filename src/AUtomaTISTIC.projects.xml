@@ -1,0 +1,60 @@
+<TaskerData sr="" dvi="1" tv="5.9.3">
+  <!--  AUtomaTISTIC-->
+  <Project sr="proj1" ve="2">
+    <cdate>1573797101847</cdate>
+    <mdate>1599771657277</mdate>
+    <name>AUtomaTISTIC</name>
+    <pids>23,165,19,73,8,22,91,17,49,50,31</pids>
+    <tids>164,114,229,103,106,122,125,46,76,143,621,493,496</tids>
+    <Img sr="icon" ve="2">
+      <nme>mw_communication_phonelink_setup</nme>
+    </Img>
+  </Project>
+  <!--  AUtomaTISTIC UI-->
+  <Project sr="proj6" ve="2">
+    <cdate>1536272710511</cdate>
+    <mdate>1599890476788</mdate>
+    <name>AUtomaTISTIC UI</name>
+    <pids>61,64,59,62,71,74,63,58,65,60,70,55,69,77</pids>
+    <scenes>AUT_UI_Bar_Phone,AUT_UI_Bar_Headset,AUT_UI_Bar_Watch</scenes>
+    <tids>57,41,54,48,35,40,66,9,52,72,12,47</tids>
+    <Img sr="icon" ve="2">
+      <nme>mw_action_dashboard</nme>
+    </Img>
+  </Project>
+  <!--  AUtomaTISTIC Backend-->
+  <Project sr="proj2" ve="2">
+    <cdate>1577520141782</cdate>
+    <mdate>1599771657277</mdate>
+    <name>AUtomaTISTIC Backend</name>
+    <pids>116,15,85,88,216,172,107,45,51,231,44,2,163,92,6,25,28,4,210</pids>
+    <tids>7,126,498,497,499,93,561,167</tids>
+    <Img sr="icon" ve="2">
+      <nme>mw_device_developer_mode</nme>
+    </Img>
+  </Project>
+  <!-- AUtomaTISTIC Communication -->
+  <Project sr="proj5" ve="2">
+    <cdate>1599590815762</cdate>
+    <mdate>1599771625727</mdate>
+    <name>AUtomaTISTIC_comms</name>
+    <pids>10,243,39</pids>
+    <scenes>TextInput,ArrayOperations,YesNo,SMSP - Panel</scenes>
+    <tids>11,234,235,36,643,645,644</tids>
+    <Img sr="icon" ve="2">
+      <nme>mw_action_announcement</nme>
+    </Img>
+  </Project>
+  <!--  AUtomaTISTIC Watch Plugin-->
+  <Project sr="proj3" ve="2">
+    <cdate>1576999552354</cdate>
+    <lock>true</lock>
+    <mdate>1599771760069</mdate>
+    <name>AUtomaTISTIC Watch Plugin</name>
+    <pids>24,121,123,282,286,290,294,500</pids>
+    <tids>14,5,16,29,285,289,281,293,3,21,26,149,152,158,53,173,153,150,78,157,148,179,30,37,75,79,144</tids>
+    <Img sr="icon" ve="2">
+      <nme>mw_hardware_watch</nme>
+    </Img>
+  </Project>
+</TaskerData>
