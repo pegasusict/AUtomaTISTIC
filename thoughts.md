@@ -1,21 +1,23 @@
-# Naming convention:
+# thoughts about this project
+## Naming convention:
 In this document I'm referring to Tasker terms as <tasker_term> to prevent any confusion.
 
+## rulesets
 There are 2 types of rulesets: 
   1. actions, such as:
-    - set ringvolume based on media volume
-    - GamingMode
-    - ...
+      * set ringvolume based on media volume
+      * GamingMode
+      * ...
   2. the (poorly-named) profiles, such as:
-    - Home
-    - Work
-    - Meeting
-    - Outdoor
-    - Sleep
+      * Home
+      * Work
+      * Meeting
+      * Outdoor
+      * Sleep
    
 
-
-<1st Setup>
+## general concept
+### <1st Setup>
   - set "constants" (datatype doesn't exist in Tasker afaik but it makes development a lot easier)
   - set default values
   - check & load config json
