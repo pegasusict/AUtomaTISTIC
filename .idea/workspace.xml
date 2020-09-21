@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00f211f1-8a03-412b-a840-0d9d026c53ae" name="Default Changelist" comment="restructured files, further reorganised code, lot's more to do..." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hn2WqaQnmj6SQ9wA60TlIJqnOM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00f211f1-8a03-412b-a840-0d9d026c53ae" name="Default Changelist" comment="" />
+      <created>1600632570772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600632570772</updated>
+      <workItem from="1600632572895" duration="1122000" />
+    </task>
+    <task id="LOCAL-00001" summary="restructured files, further reorganised code, lot's more to do...">
+      <created>1600633647412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600633647412</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="restructured files, further reorganised code, lot's more to do..." />
+    <option name="LAST_COMMIT_MESSAGE" value="restructured files, further reorganised code, lot's more to do..." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="305" width="513" height="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600633629593">
+      <screen x="29" y="0" width="1571" height="871" />
+    </state>
+    <state x="553" y="305" width="513" height="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/29.0.1571.871@29.0.1571.871" timestamp="1600633629593" />
+    <state x="348" y="70" key="SettingsEditor" timestamp="1600633608033">
+      <screen x="29" y="0" width="1571" height="871" />
+    </state>
+    <state x="348" y="70" key="SettingsEditor/29.0.1571.871@29.0.1571.871" timestamp="1600633608033" />
+    <state x="409" y="171" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600633660213">
+      <screen x="29" y="0" width="1571" height="871" />
+    </state>
+    <state x="409" y="171" width="802" height="528" key="Vcs.Push.Dialog.v2/29.0.1571.871@29.0.1571.871" timestamp="1600633660213" />
+  </component>
+</project>
