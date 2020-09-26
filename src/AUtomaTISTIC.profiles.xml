@@ -7,7 +7,7 @@
     <cdate>1573889702408</cdate>
     <edate>1592848695783</edate>
     <flags>27</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <Loc sr="con0">
       <cname>Home</cname>
       <lat>52.13762664794922</lat>
@@ -23,7 +23,7 @@
     <cdate>1574287441106</cdate>
     <edate>1579817777812</edate>
     <flags>27</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <Day sr="con0">
       <wday0>1</wday0>
       <wday1>2</wday1>
@@ -56,7 +56,7 @@
     <cdate>1574287441106</cdate>
     <edate>1599632961787</edate>
     <flags>27</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <Day sr="con0">
       <wday0>2</wday0>
       <wday1>3</wday1>
@@ -104,7 +104,7 @@
     <mid0>164</mid0>
     <mid1>56</mid1>
     <nme>_🛏️█</nme>
-    <pri>50</pri>
+    <pri>25</pri>
     <Time sr="con0">
       <fh>22</fh>
       <fm>0</fm>
@@ -124,7 +124,7 @@
     <id>92</id>
     <mid0>93</mid0>
     <nme>🛰️🏢█</nme>
-    <pri>50</pri>
+    <pri>25</pri>
     <Loc sr="con0">
       <cname>Work</cname>
       <lat>52.14049530029297</lat>
@@ -142,7 +142,7 @@
     <cdate>1573600842785</cdate>
     <edate>1579817855770</edate>
     <flags>11</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>10</code>
       <Int sr="arg0" val="0"/>
@@ -158,7 +158,7 @@
     <cdate>1574550841288</cdate>
     <edate>1599023778418</edate>
     <flags>11</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>160</code>
       <Str sr="arg0" ve="3"/>
@@ -176,7 +176,7 @@
     <id>45</id>
     <mid0>93</mid0>
     <nme>🚦📡🏡🔭█</nme>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>170</code>
       <Str sr="arg0" ve="3">%AUT_Pofile_Home_Wifi_SSID</Str>
@@ -196,7 +196,7 @@
     <id>51</id>
     <mid0>93</mid0>
     <nme>🚦📡🏢🔭█</nme>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>170</code>
       <Str sr="arg0" ve="3">%AUT_Profile_Work_Wifi_SSID</Str>

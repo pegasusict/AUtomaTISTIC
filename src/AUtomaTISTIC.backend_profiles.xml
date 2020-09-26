@@ -8,7 +8,7 @@
     <edate>1599738815318</edate>
     <cldm>8553600</cldm>
     <flags>19</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <Event sr="con0" ve="2">
       <code>411</code>
       <pri>0</pri>
@@ -23,7 +23,7 @@
     <edate>1581812278917</edate>
     <flags>11</flags>
     <lk>true</lk>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>165</code>
       <ConditionList sr="if">
@@ -45,7 +45,7 @@
     <edate>1599023782089</edate>
     <cldm>60</cldm>
     <flags>10</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>30</code>
       <Int sr="arg0" val="0"/>
@@ -60,7 +60,7 @@
     <cdate>1575411790424</cdate>
     <edate>1579817734080</edate>
     <flags>11</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>142</code>
       <Str sr="arg0" ve="3">🚦🎧*</Str>
@@ -75,7 +75,7 @@
     <edate>1595884810055</edate>
     <cldm>60</cldm>
     <flags>10</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>3</code>
       <Str sr="arg0" ve="3"></Str>
@@ -92,7 +92,7 @@
     <edate>1581660429073</edate>
     <flags>19</flags>
     <lk>true</lk>
-    <pri>50</pri>
+    <pri>25</pri>
     <Day sr="con0">
       <wday0>1</wday0>
     </Day>
@@ -112,7 +112,7 @@
     <edate>1579735408340</edate>
     <flags>3</flags>
     <limit>true</limit>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>123</code>
       <Int sr="arg0" val="1"/>
@@ -220,7 +220,7 @@
     <edate>1599370665417</edate>
     <cldm>300</cldm>
     <flags>11</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>143</code>
       <pin>true</pin>
@@ -247,7 +247,7 @@
     <edate>1581811836891</edate>
     <flags>11</flags>
     <lk>true</lk>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>165</code>
       <ConditionList sr="if">
@@ -268,7 +268,7 @@
     <cdate>1573746205369</cdate>
     <edate>1599370551352</edate>
     <flags>27</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <Event sr="con0" ve="2">
       <code>3050</code>
       <pri>0</pri>

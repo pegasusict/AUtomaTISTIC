@@ -1,17 +1,118 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
-	<Profile sr="prof165" ve="2">
-		<cdate>1574287028083</cdate>
+	<Profile sr="prof107" ve="2">
+		<cdate>1574287441106</cdate>
 		<clp>true</clp>
-		<edate>1600376819814</edate>
-		<flags>17</flags>
-		<id>165</id>
-		<mid0>167</mid0>
-		<nme>AUT-EVENT_BootTime</nme>
+		<edate>1600608740745</edate>
+		<flags>25</flags>
+		<id>107</id>
+		<mid0>93</mid0>
+		<nme>🚦📆🧮█</nme>
 		<pri>25</pri>
-		<Event sr="con0" ve="2">
-			<code>411</code>
-			<pri>0</pri>
-		</Event>
+		<Day sr="con0">
+			<wday0>1</wday0>
+			<wday1>2</wday1>
+			<wday2>3</wday2>
+			<wday3>4</wday3>
+			<wday4>5</wday4>
+		</Day>
+		<State sr="con1" ve="2">
+			<code>5</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3">*vakantie</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Google:Samen Op Weg/Google:Dylan/Google:nancy.van.ofwegen@gmail.com</Str>
+		</State>
+		<Time sr="con2">
+			<fh>6</fh>
+			<fm>0</fm>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof15" ve="2">
+		<cdate>1573748150823</cdate>
+		<cldm>60</cldm>
+		<clp>true</clp>
+		<edate>1600235463235</edate>
+		<flags>8</flags>
+		<id>15</id>
+		<mid0>103</mid0>
+		<mid1>103</mid1>
+		<nme>🚦🎧ᛒ█</nme>
+		<pri>25</pri>
+		<State sr="con0" ve="2">
+			<code>3</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof163" ve="2">
+		<cdate>1573889702408</cdate>
+		<clp>true</clp>
+		<edate>1600238553099</edate>
+		<flags>25</flags>
+		<id>163</id>
+		<mid0>93</mid0>
+		<nme>🛰️🏡█</nme>
+		<pri>25</pri>
+		<State sr="con0" ve="2">
+			<code>983573810</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<GeofenceByName>&lt;null&gt;</GeofenceByName>
+					<GeofenceByName-type>java.lang.String</GeofenceByName-type>
+					<GeofenceUseRegex>false</GeofenceUseRegex>
+					<GeofenceUseRegex-type>java.lang.Boolean</GeofenceUseRegex-type>
+					<Name>f5d13e09-6554-45a3-a015-dbe960450364</Name>
+					<Name-type>java.lang.String</Name-type>
+					<Transition>1</Transition>
+					<Transition-type>java.lang.String</Transition-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Geofence Name: home
+Status: Inside</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Name Transition plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>2d4de909-c4b7-4e91-aa23-d24d06ccab60</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentGeofenceReported</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigGeofenceReported</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof172" ve="2">
+		<cdate>1574287441106</cdate>
+		<clp>true</clp>
+		<edate>1599632961787</edate>
+		<flags>25</flags>
+		<id>172</id>
+		<mid0>18</mid0>
+		<mid1>43</mid1>
+		<nme>🚦📆🏢█</nme>
+		<pri>25</pri>
+		<Day sr="con0">
+			<wday0>2</wday0>
+			<wday1>3</wday1>
+			<wday2>5</wday2>
+			<wday3>6</wday3>
+		</Day>
+		<State sr="con1" ve="2">
+			<code>5</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3">%AUT_WorkDayOff</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">%AUT_WorkCalendar</Str>
+		</State>
 	</Profile>
 	<Profile sr="prof19" ve="2">
 		<cdate>1573746205369</cdate>
@@ -20,7 +121,7 @@
 		<flags>25</flags>
 		<id>19</id>
 		<mid0>46</mid0>
-		<nme>️🎵->☎️🔊</nme>
+		<nme>▶️🎵☎️🔊</nme>
 		<pri>25</pri>
 		<Event sr="con0" ve="2">
 			<code>3050</code>
@@ -35,232 +136,231 @@
 			<Str sr="arg0" ve="3">_🛏️█</Str>
 		</State>
 	</Profile>
-	<Profile sr="prof22" ve="2">
-		<cdate>1575373794376</cdate>
-		<cldm>300</cldm>
+	<Profile sr="prof2" ve="2">
+		<cdate>1573600842785</cdate>
 		<clp>true</clp>
-		<edate>1600376984779</edate>
+		<edate>1579817855770</edate>
 		<flags>9</flags>
-		<id>22</id>
-		<mid0>122</mid0>
-		<nme>⚙️</nme>
+		<id>2</id>
+		<mid0>68</mid0>
+		<mid1>67</mid1>
+		<nme>🚦📱⚡█</nme>
 		<pri>25</pri>
 		<State sr="con0" ve="2">
-			<code>143</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">cron</Str>
-		</State>
-		<State sr="con1" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PENABLED</lhs>
-					<op>2</op>
-					<rhs>*__⚙️✔️*</rhs>
-				</Condition>
-			</ConditionList>
+			<code>10</code>
+			<Int sr="arg0" val="0"/>
 		</State>
 	</Profile>
-	<Profile sr="prof23" ve="2">
-		<cdate>1573747184524</cdate>
-		<cldm>300</cldm>
+	<Profile sr="prof210" ve="2">
+		<cdate>1574365164949</cdate>
 		<clp>true</clp>
-		<edate>1600376848227</edate>
-		<flags>8</flags>
-		<id>23</id>
-		<limit>true</limit>
-		<mid0>100</mid0>
-		<mid1>101</mid1>
-		<nme>_🎮█</nme>
+		<edate>1600239776713</edate>
+		<flags>1</flags>
+		<id>210</id>
+		<mid0>209</mid0>
+		<nme>🧉🕰️</nme>
 		<pri>25</pri>
-		<App sr="con0" ve="2">
-			<cls0>com.gramgames.activity.UnityPlayerActivity</cls0>
-			<flags>2</flags>
-			<label0>Merge Dragons!</label0>
-			<pkg0>com.gramgames.mergedragons</pkg0>
-		</App>
-	</Profile>
-	<Profile sr="prof31" ve="2">
-		<cdate>1577449356225</cdate>
-		<clp>true</clp>
-		<edate>1600239542294</edate>
-		<flags>9</flags>
-		<id>31</id>
-		<mid0>32</mid0>
-		<nme>AutoBackup</nme>
-		<pri>25</pri>
-		<Event sr="con0" ve="2">
-			<code>3050</code>
-			<pri>0</pri>
-			<Str sr="arg0" ve="3">%AUT_Version</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
+		<State sr="con0" ve="2">
+			<code>123</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+		<Event sr="con1" ve="2">
+			<code>1000</code>
 		</Event>
-	</Profile>
-	<Profile sr="prof49" ve="2">
-		<cdate>1576359245415</cdate>
-		<cldm>300</cldm>
-		<clp>true</clp>
-		<edate>1600817850188</edate>
-		<flags>24</flags>
-		<id>49</id>
-		<mid0>164</mid0>
-		<nme>_🏡█</nme>
-		<pri>25</pri>
-		<State sr="con0" ve="2">
-			<code>142</code>
-			<Str sr="arg0" ve="3">🚦📡🏡🔭█/🛰️🏡█</Str>
-		</State>
-		<State sr="con1" ve="2">
-			<code>142</code>
-			<Str sr="arg0" ve="3">🚦📡🔌█</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof50" ve="2">
-		<cdate>1576359403639</cdate>
-		<clp>true</clp>
-		<edate>1600376891968</edate>
-		<flags>24</flags>
-		<id>50</id>
-		<mid0>164</mid0>
-		<nme>_🏢█</nme>
-		<pri>25</pri>
-		<State sr="con0" ve="2">
-			<code>142</code>
-			<Str sr="arg0" ve="3">🛰️🏢█/🚦📡🏢🔭█</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof73" ve="2">
-		<cdate>1574240461581</cdate>
-		<clp>true</clp>
-		<edate>1600376912930</edate>
-		<flags>24</flags>
-		<id>73</id>
-		<mid0>164</mid0>
-		<nme>_🚲🚙█</nme>
-		<pri>25</pri>
-		<State sr="con0" ve="2">
-			<code>142</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">🚦📡🔌█</Str>
-		</State>
-		<State sr="con1" ve="2">
-			<code>142</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">_🏡█</Str>
-		</State>
 		<State sr="con2" ve="2">
-			<code>142</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">_🏢█</Str>
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AUT_GoodMorningHasRun</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AUT_GoodMorningHasRun</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof8" ve="2">
-		<cdate>1573626577009</cdate>
+	<Profile sr="prof216" ve="2">
+		<cdate>1574375287726</cdate>
+		<cldm>60</cldm>
 		<clp>true</clp>
-		<edate>1600376951435</edate>
-		<flags>24</flags>
-		<id>8</id>
-		<mid0>164</mid0>
-		<mid1>56</mid1>
-		<nme>_🛏️█</nme>
+		<edate>1600235531268</edate>
+		<flags>8</flags>
+		<id>216</id>
+		<mid0>103</mid0>
+		<mid1>103</mid1>
+		<nme>🚦🎧🔌█</nme>
 		<pri>25</pri>
-		<Time sr="con0">
-			<fh>22</fh>
-			<fm>0</fm>
-			<th>8</th>
-			<tm>0</tm>
-		</Time>
-		<State sr="con1" ve="2">
-			<code>142</code>
-			<Str sr="arg0" ve="3">🚦📱⌚⚡█</Str>
+		<State sr="con0" ve="2">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
 		</State>
 	</Profile>
-	<Profile sr="prof91" ve="2">
-		<cdate>1575411024307</cdate>
+	<Profile sr="prof231" ve="2">
+		<cdate>1574550841288</cdate>
 		<clp>true</clp>
-		<edate>1600376769165</edate>
+		<edate>1600600124573</edate>
 		<flags>9</flags>
-		<id>91</id>
+		<id>231</id>
+		<mid0>117</mid0>
+		<mid1>233</mid1>
+		<nme>🚦📡🔌█</nme>
+		<pri>25</pri>
+		<State sr="con0" ve="2">
+			<code>160</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="2"/>
+		</State>
+	</Profile>
+	<Profile sr="prof44" ve="2">
+		<cdate>1576310631946</cdate>
+		<clp>true</clp>
+		<edate>1579817842221</edate>
+		<flags>9</flags>
+		<id>44</id>
 		<mid0>93</mid0>
-		<nme>__⚙️✔️</nme>
+		<nme>🚦📱⌚⚡█</nme>
+		<pri>25</pri>
+		<State sr="con0" ve="2">
+			<code>142</code>
+			<Str sr="arg0" ve="3">🚦📱⚡█</Str>
+		</State>
+		<State sr="con1" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>2</op>
+					<rhs>*🚦⌚⚡█*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>3</op>
+					<rhs>*🚦⌚🔌█*</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof45" ve="2">
+		<cdate>1576330687541</cdate>
+		<cldm>900</cldm>
+		<clp>true</clp>
+		<edate>1600600096881</edate>
+		<flags>8</flags>
+		<id>45</id>
+		<mid0>93</mid0>
+		<nme>🚦📡🏡🔭█</nme>
+		<pri>25</pri>
+		<State sr="con0" ve="2">
+			<code>170</code>
+			<Str sr="arg0" ve="3">%AUT_Cfg_WifiHome</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+		</State>
+	</Profile>
+	<Profile sr="prof51" ve="2">
+		<cdate>1576330687541</cdate>
+		<cldm>900</cldm>
+		<clp>true</clp>
+		<edate>1600238832141</edate>
+		<flags>8</flags>
+		<id>51</id>
+		<mid0>93</mid0>
+		<nme>🚦📡🏢🔭█</nme>
+		<pri>25</pri>
+		<State sr="con0" ve="2">
+			<code>170</code>
+			<Str sr="arg0" ve="3">%AUT_Cfg_WifiWork</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+		</State>
+	</Profile>
+	<Profile sr="prof6" ve="2">
+		<cdate>1576100542776</cdate>
+		<clp>true</clp>
+		<edate>1600239624570</edate>
+		<flags>9</flags>
+		<id>6</id>
+		<mid0>7</mid0>
+		<nme>🧩🔢█</nme>
 		<pri>25</pri>
 		<State sr="con0" ve="2">
 			<code>165</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%NULL</lhs>
-					<op>13</op>
-					<rhs>true</rhs>
+					<lhs>%AUT_Version</lhs>
+					<op>3</op>
+					<rhs>%AUT_VersionMajor.%AUT_VersionMinor.%AUT_VersionPatch%AUT_VersionRelease</rhs>
 				</Condition>
 			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof92" ve="2">
+		<cdate>1573889702408</cdate>
+		<cldm>300</cldm>
+		<clp>true</clp>
+		<edate>1600688914850</edate>
+		<flags>25</flags>
+		<id>92</id>
+		<mid0>27</mid0>
+		<mid1>27</mid1>
+		<nme>🛰️🏢█</nme>
+		<pri>25</pri>
+		<State sr="con0" ve="2">
+			<code>983573810</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<GeofenceByName>&lt;null&gt;</GeofenceByName>
+					<GeofenceByName-type>java.lang.String</GeofenceByName-type>
+					<GeofenceUseRegex>false</GeofenceUseRegex>
+					<GeofenceUseRegex-type>java.lang.Boolean</GeofenceUseRegex-type>
+					<Name>5250f02b-9e73-4d20-907c-ae194a5e0d44</Name>
+					<Name-type>java.lang.String</Name-type>
+					<Transition>1</Transition>
+					<Transition-type>java.lang.String</Transition-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Geofence Name: work
+Status: Inside</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Name Transition plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>016e04a6-86d6-4ee1-8797-fbf968ab6ef8</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentGeofenceReported</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigGeofenceReported</Str>
 		</State>
 	</Profile>
 	<Project sr="proj0" ve="2">
-		<cdate>1573797101847</cdate>
-		<name>AUtomaTISTIC</name>
-		<pids>49,19,50,73,31,23,91,165,8,22</pids>
+		<cdate>1577520141782</cdate>
+		<name>AUtomaTISTIC Backend</name>
+		<pids>15,45,44,231,6,172,210,92,51,2,163,19,216,107</pids>
 		<psort>Alpha</psort>
-		<tids>32,21,164,167,229,3,114,103,16,125,46,621,101,106,56,122,143,76,493,100,93,498,175,496,499,561</tids>
+		<tids>46,561,126,233,93,498,21,499,497,106,67,103,68,145,27,18,3,209,7,43,117,16,164,125,167,114</tids>
 		<tsort>Alpha</tsort>
-		<Kid sr="Kid">
-			<feat0>android.hardware.location.gps:y</feat0>
-			<feat1>android.hardware.bluetooth:y</feat1>
-			<feat2>android.hardware.location.network:y</feat2>
-			<feat3>android.hardware.location:y</feat3>
-			<feat4>android.hardware.wifi:y</feat4>
-			<launchID>167</launchID>
-			<pkg>org.pegasusict.ppa</pkg>
-			<vTarg>28</vTarg>
-			<vnme>0.1.10 pre-alpha</vnme>
-			<vnum>2</vnum>
-		</Kid>
 		<Img sr="icon" ve="2">
-			<nme>mw_communication_phonelink_setup</nme>
+			<nme>mw_device_developer_mode</nme>
 		</Img>
 	</Project>
-	<Task sr="task100">
-		<cdate>1574807502107</cdate>
-		<edate>1599632485859</edate>
-		<id>100</id>
-		<pri>25</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">AUT_gameMode</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">start</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task101">
-		<cdate>1574807608359</cdate>
-		<edate>1577525901275</edate>
-		<id>101</id>
-		<pri>1051</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">AUT_gameMode</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">end</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task103">
 		<cdate>1574030486276</cdate>
 		<edate>1600843642954</edate>
@@ -924,124 +1024,24 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 			<nme>mw_av_volume_up</nme>
 		</Img>
 	</Task>
-	<Task sr="task122">
-		<cdate>1575548566807</cdate>
-		<edate>1600893609735</edate>
-		<id>122</id>
-		<nme>AUT_daemon</nme>
+	<Task sr="task117">
+		<cdate>1575412058173</cdate>
+		<edate>1575412089116</edate>
+		<id>117</id>
 		<pri>25</pri>
 		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">AUT_headsetConnected</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%AUT_Plugins_AutoWear</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">AUT-WEAR-AW_DoWearTasks</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%AUT_Plugins_WatchMaker</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">WMsendVars</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%AUT_Profile</lhs>
-					<op>3</op>
-					<rhs>*sleep*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1">
-				<var>%AUT_deamon_cycle</var>
-			</Int>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUT_Wifi_Connected</Str>
+			<Str sr="arg1" ve="3">true</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PENABLED</lhs>
-					<op>2</op>
-					<rhs>*__⚙️✔️*</rhs>
-				</Condition>
-			</ConditionList>
+		<Action sr="act1" ve="7">
+			<code>905</code>
+			<Int sr="arg0" val="2"/>
 		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_action_history</nme>
-		</Img>
 	</Task>
 	<Task sr="task125">
 		<cdate>1575612144521</cdate>
@@ -1199,252 +1199,395 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 			<nme>mw_communication_live_help</nme>
 		</Img>
 	</Task>
-	<Task sr="task143">
-		<cdate>1530365700121</cdate>
-		<edate>1599425985053</edate>
-		<id>143</id>
-		<nme>AUT_RerouteAudio</nme>
+	<Task sr="task126">
+		<cdate>1575616135802</cdate>
+		<edate>1599569563508</edate>
+		<id>126</id>
+		<nme>AUT__About</nme>
 		<pri>100</pri>
-		<Share sr="Share">
-			<d>I have managed to reroute audio from one channel to another on Android, and using only Tasker. Therefore, it will no longer be necessary to use the well-known SoundAbout app, at least with the most common audio channel: Multimedia.
-
-These are the available routings:
-• Headphones &gt; Speaker (and viceversa)
-• Headphones &gt; Bluetooth (and viceversa)
-• Speaker &gt; Bluetooth (and viceversa)
-
-Notes:
-- The values and the way how the task manages the audio routing were based on my current device and ROM. So, it could work or not for your device.</d>
-			<p>false</p>
-			<t></t>
-		</Share>
 		<Action sr="act0" ve="7">
-			<code>300</code>
-			<label>set "constants"
-speaker = 0
-bluetooth = 1
-wired headset = 2</label>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%speaker</Str>
-			<Str sr="arg1" ve="3">0</Str>
+			<label>&lt;h1&gt;%AUT_ThisSuite v%AUT_Version&lt;/h1&gt;</label>
+			<Str sr="arg0" ve="3">%AUT_About</Str>
+			<Str sr="arg1" ve="3">&lt;h1&gt;%AUT_ThisSuite v%AUT_Version&lt;/h1&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">am</Str>
-			<Str sr="arg2" ve="3">setWiredHeadsetOn
-{} (boolean)</Str>
-			<Str sr="arg3" ve="3">false</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%from</lhs>
-					<op>0</op>
-					<rhs>%wired</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">am</Str>
-			<Str sr="arg2" ve="3">setSpeakerphoneOn
-{} (boolean)</Str>
-			<Str sr="arg3" ve="3">true</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%route_to</lhs>
-					<op>0</op>
-					<rhs>%speaker</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">am</Str>
-			<Str sr="arg2" ve="3">setSpeakerphoneOn
-{} (boolean)</Str>
-			<Str sr="arg3" ve="3">false</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%from</lhs>
-					<op>0</op>
-					<rhs>%speaker</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">am</Str>
-			<Str sr="arg2" ve="3">setMode
-{} (int)</Str>
-			<Str sr="arg3" ve="3">3</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%route_to</lhs>
-					<op>1</op>
-					<rhs>%bluetooth</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">temp</Str>
-			<Str sr="arg2" ve="3">setMode
-{} (int)</Str>
-			<Str sr="arg3" ve="3">0</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%route_to</lhs>
-					<op>0</op>
-					<rhs>%bluetooth</rhs>
-				</Condition>
-			</ConditionList>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;h4 style="display:inline"&gt;%AUT_ThisSuite&lt;/h4&gt; is being developed to aid me with various tasks and information I tend to lose track of thanks to my autistic spectrum disorder.
+&lt;/p&gt;</label>
+			<Str sr="arg0" ve="3">%AUT_About</Str>
+			<Str sr="arg1" ve="3">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;h4 style="display:inline"&gt;%AUT_ThisSuite&lt;/h4&gt; is being developed to aid me with various tasks and information I tend to lose track of thanks to my autistic spectrum disorder.
+&lt;/p&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%bluetooth</Str>
-			<Str sr="arg1" ve="3">1</Str>
+			<label>&lt;h2&gt;Current Functionality:&lt;/h2&gt;
+&lt;h3&gt;Based on: &lt;/h3&gt;
+ &gt; location &gt; time &gt; day &gt; wifi connection &gt; profile state &gt; charger &gt; smartwatch charging &gt; headset (wired or bt) connected &gt; etc...</label>
+			<Str sr="arg0" ve="3">%AUT_About</Str>
+			<Str sr="arg1" ve="3">&lt;h2&gt;Current Functionality:&lt;/h2&gt;
+&lt;h3&gt;Based on: &lt;/h3&gt;
+ &gt; location &gt; time &gt; day &gt; wifi connection &gt; profile state &gt; charger &gt; smartwatch charging &gt; headset (wired or bt) connected &gt; etc...</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%wired</Str>
-			<Str sr="arg1" ve="3">2</Str>
+			<label>&lt;h3&gt;Actions:&lt;/h3&gt;
+&gt; brightness &gt; volumelevels &gt; start/stop apps &gt; wear theatermode &gt; wifi &gt; thethering &gt; etc...</label>
+			<Str sr="arg0" ve="3">%AUT_About</Str>
+			<Str sr="arg1" ve="3">&lt;h3&gt;Actions:&lt;/h3&gt;
+&gt; brightness &gt; volumelevels &gt; start/stop apps &gt; wear theatermode &gt; wifi &gt; thethering &gt; etc...</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%from</Str>
-			<Str sr="arg1" ve="3">%bluetooth</Str>
+			<label>&lt;h2&gt;roadmap&lt;/h2&gt;
+&lt;p&gt;
+ &gt; dnd mode, triggered by calendar event containing a keyword from [array].&lt;/p&gt;</label>
+			<Str sr="arg0" ve="3">%AUT_About</Str>
+			<Str sr="arg1" ve="3">&lt;h2&gt;roadmap&lt;/h2&gt;
+&lt;p&gt;
+ &gt; dnd mode, triggered by calendar event containing a keyword from [array].&lt;/p&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1304982781</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>ThreeChoices</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: 3 Choices
+Title: %AUT_ThisSuite v%AUT_Version
+Title Alignment: Center
+Choice One: never show again
+Choice One Command: %hide_forever
+Choice Two: Show next time
+Choice Two Command: %show_changelogs
+Icon: android.resource://net.dinglisch.android.taskerm/hd_action_about
+Choice Three: close
+Text: %AUT_About
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Use HTML: true
+Choice Three Command: %close
+Background Color: #000000
+Title Background: #000000
+Bottom Background: #000000
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%atcommand
+Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"choiceThree":"close","choiceThreeCommand":"%close","choiceOne":"never show again","choiceOneCommand":"%hide_forever","choiceTwo":"Show next time","choiceTwoCommand":"%show_changelogs","advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"backgroundColor":"#000000","bottomBackgroundColor":"#000000","dimBackground":true,"titleBackgroundColor":"#000000"},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"icon":"android.resource://net.dinglisch.android.taskerm/hd_action_about","textSettings":{"text":"%AUT_About","buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":true},"title":"%AUT_ThisSuite v%AUT_Version","titleAlignment":"1","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>7f2fa2b2-e5f9-4ad6-9cb5-5ec153b5ff88</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_info</nme>
+		</Img>
+	</Task>
+	<Task sr="task145">
+		<cdate>1599542097190</cdate>
+		<edate>1600499812475</edate>
+		<id>145</id>
+		<nme>AUT_zzz_SaveConfig</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cfg_file</Str>
+			<Str sr="arg1" ve="3">%AUT_ThisSuiteRaw'.json'</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%from</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
+			<Str sr="arg0" ve="3">%profiles_file</Str>
+			<Str sr="arg1" ve="3">%AUT_ThisSuiteRaw'_profiles.json'</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3">%cfg_file</Str>
+			<Str sr="arg2" ve="3">%cfg_file_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3">%profiles_file</Str>
+			<Str sr="arg2" ve="3">%profiles_file_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>&lt;null&gt;</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>0</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>/storage/emulated/0/%cfg_file</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>%config</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Input Format: Json
+Simple Mode: true
+Json: /storage/emulated/0/%cfg_file
+Json Root Variable: %config
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%config
+Json Root
+The whole json object that was used as input&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Separator JsonRootVariable InputFormat plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>88df9bcd-d358-4e75-8470-a988ddabe94f</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs></rhs>
+					<lhs>%cfg_file_exists</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>&lt;null&gt;</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>0</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>/storage/emulated/0/%profiles_file</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>%profiles</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>&lt;null&gt;</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Input Format: Json
+Simple Mode: true
+Json: /storage/emulated/0/%profiles_file
+Json Root Variable: %profiles
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%profiles
+Json Root
+The whole json object that was used as input&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Separator JsonRootVariable InputFormat plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>88df9bcd-d358-4e75-8470-a988ddabe94f</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%profiles_file_exists</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%route_to</Str>
-			<Str sr="arg1" ve="3">%speaker</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
+			<code>345</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%config</Str>
+			<Str sr="arg2" ve="3">%config_array_length</Str>
 		</Action>
 		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%route_to</Str>
-			<Str sr="arg1" ve="3">%par2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par2</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
+			<code>345</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%profiles</Str>
+			<Str sr="arg2" ve="3">%profiles_array_length</Str>
 		</Action>
 		<Action sr="act8" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3">(AudioManager) am</Str>
-			<Str sr="arg1" ve="3">CONTEXT</Str>
-			<Str sr="arg2" ve="3">getSystemService
-{Object} (String)</Str>
-			<Str sr="arg3" ve="3">audio</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">am</Str>
-			<Str sr="arg2" ve="3">setWiredHeadsetOn
-{} (boolean)</Str>
-			<Str sr="arg3" ve="3">true</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
+			<code>354</code>
+			<Str sr="arg0" ve="3">%AUT_config</Str>
+			<Str sr="arg1" ve="3">%config</Str>
+			<Str sr="arg2" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%route_to</lhs>
-					<op>0</op>
-					<rhs>%wired</rhs>
+					<lhs>%config_array_length</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_av_hearing</nme>
-		</Img>
+		<Action sr="act9" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%AUT_profiles</Str>
+			<Str sr="arg1" ve="3">%profiles</Str>
+			<Str sr="arg2" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%profiles_array_length</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 	</Task>
 	<Task sr="task16">
 		<cdate>1575109297801</cdate>
@@ -2238,126 +2381,34 @@ Suppressed Effects
 			<nme>mw_action_open_in_browser</nme>
 		</Img>
 	</Task>
-	<Task sr="task175">
-		<cdate>1600637349621</cdate>
-		<edate>1600638076865</edate>
-		<id>175</id>
-		<nme>AUT_ProfileManager</nme>
+	<Task sr="task18">
+		<cdate>1599632883526</cdate>
+		<edate>1599632925857</edate>
+		<id>18</id>
 		<Action sr="act0" ve="7">
-			<code>342</code>
-			<Int sr="arg0" val="5"/>
-			<Str sr="arg1" ve="3">%AUT_FILES_Profiles%AUT_Const_Ext_Cfg</Str>
-			<Str sr="arg2" ve="3">%file_exists</Str>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUT_Workday</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="1"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%file_exists</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>1446874931</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<Average>&lt;null&gt;</Average>
-					<Average-type>java.lang.String</Average-type>
-					<Field>&lt;null&gt;</Field>
-					<Field-type>java.lang.String</Field-type>
-					<FilterInvert>false</FilterInvert>
-					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
-					<GetParentValues>false</GetParentValues>
-					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
-					<InputFormat>&lt;null&gt;</InputFormat>
-					<InputFormat-type>java.lang.String</InputFormat-type>
-					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
-					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
-					<Json>%AUT_Files_Profiles%AUT_Const_Ext_Cfg</Json>
-					<Json-type>java.lang.String</Json-type>
-					<JsonRootVariable>%AUT_Profiles</JsonRootVariable>
-					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
-					<MatchField>&lt;null&gt;</MatchField>
-					<MatchField-type>java.lang.String</MatchField-type>
-					<MatchValue>&lt;null&gt;</MatchValue>
-					<MatchValue-type>java.lang.String</MatchValue-type>
-					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
-					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
-					<MatchesContainsAll>false</MatchesContainsAll>
-					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
-					<MatchesExact>false</MatchesExact>
-					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
-					<MatchesRegex>false</MatchesRegex>
-					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
-					<Max>&lt;null&gt;</Max>
-					<Max-type>java.lang.String</Max-type>
-					<MaxResults>&lt;null&gt;</MaxResults>
-					<MaxResults-type>java.lang.String</MaxResults-type>
-					<Min>&lt;null&gt;</Min>
-					<Min-type>java.lang.String</Min-type>
-					<Query>&lt;null&gt;</Query>
-					<Query-type>java.lang.String</Query-type>
-					<Separator>,</Separator>
-					<Separator-type>java.lang.String</Separator-type>
-					<SimpleMode>true</SimpleMode>
-					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
-					<SortArrayInvert>false</SortArrayInvert>
-					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
-					<SortArrayKey>&lt;null&gt;</SortArrayKey>
-					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
-					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
-					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
-					<Sum>&lt;null&gt;</Sum>
-					<Sum-type>java.lang.String</Sum-type>
-					<VariableName>&lt;null&gt;</VariableName>
-					<VariableName-type>java.lang.String</VariableName-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Simple Mode: true
-Json: %AUT_Files_Profiles%AUT_Const_Ext_Cfg
-Json Root Variable: %AUT_Profiles
-Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%aut_profiles
-Json Root
-The whole json object that was used as input&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Separator JsonRootVariable plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>6029b639-1a15-4dfa-bbfc-d63ffa9c9b05</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
-			<Int sr="arg3" val="60"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">%aut_profiles()</Str>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%trigger</Str>
-			<Str sr="arg1" ve="3">%profile{"triggers")</Str>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>40</code>
+	</Task>
+	<Task sr="task209">
+		<cdate>1540304593443</cdate>
+		<edate>1600235878506</edate>
+		<id>209</id>
+		<nme>GoodMorning</nme>
+		<pri>51</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUT_GoodMorningHasRun</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 	</Task>
 	<Task sr="task21">
@@ -2515,102 +2566,143 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<nme>mw_action_swap_vertical_circle</nme>
 		</Img>
 	</Task>
-	<Task sr="task229">
-		<cdate>1573747044081</cdate>
-		<edate>1599632560172</edate>
-		<id>229</id>
-		<nme>AUT_gameMode</nme>
-		<rty>1</rty>
+	<Task sr="task233">
+		<cdate>1574550900213</cdate>
+		<edate>1575412049415</edate>
+		<id>233</id>
+		<pri>1051</pri>
 		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>start</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par1</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>877</code>
-			<label>Pause AdGuard Protection</label>
-			<Str sr="arg0" ve="3">pause</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">password:%AUT_AdguardPass</Str>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">com.adguard.android</Str>
-			<Str sr="arg8" ve="3">com.adguard.android.receivers.AutomationReceiver</Str>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%AUT_GameMode</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>812</code>
-			<Int sr="arg0" val="59"/>
-			<Int sr="arg1" val="59"/>
-			<Int sr="arg2" val="23"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>end</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>877</code>
-			<label>Start AdGuard Protection</label>
-			<Str sr="arg0" ve="3">start</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">password:%AUT_AdguardPass</Str>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">com.adguard.android</Str>
-			<Str sr="arg8" ve="3">com.adguard.android.receivers.AutomationReceiver</Str>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AUT_GameMode</Str>
+			<Str sr="arg0" ve="3">%WifiConnected</Str>
 			<Str sr="arg1" ve="3">false</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>812</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
-			<Int sr="arg2" val="0"/>
+		<Action sr="act1" ve="7">
+			<code>905</code>
+			<Int sr="arg0" val="3"/>
 		</Action>
-		<Action sr="act8" ve="7">
+	</Task>
+	<Task sr="task27">
+		<cdate>1600231640228</cdate>
+		<edate>1600688881886</edate>
+		<id>27</id>
+		<nme>AUT_LogWorkHours</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AUT_Workday</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%alstatus</lhs>
+					<op>2</op>
+					<rhs>inside</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>567</code>
+			<Str sr="arg0" ve="3">%start1 / %end</Str>
+			<Str sr="arg1" ve="3">Google:Mattijs@BS</Str>
+			<Str sr="arg2" ve="3">M@work</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AUT_WorkStart</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%AUT_WorkStart</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>38</code>
 		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_hardware_videogame_asset</nme>
-		</Img>
+		<Action sr="act2" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Arrived at the Office</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-gbr</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUT_WorkStart</Str>
+			<Str sr="arg1" ve="3">%aldatetime</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">-60*(%TIME-%AUT_WorkStart)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">.</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%end</Str>
+			<Str sr="arg1" ve="3">-1*%start1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%start1 / %end</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Left the Office</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-gbr</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
 	</Task>
 	<Task sr="task3">
 		<cdate>1575973914463</cdate>
@@ -2702,17 +2794,18 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<pkg>slide.watchFrenzy</pkg>
 		</Img>
 	</Task>
-	<Task sr="task32">
-		<cdate>1577449383487</cdate>
-		<edate>1599738723044</edate>
-		<id>32</id>
-		<pri>51</pri>
+	<Task sr="task43">
+		<cdate>1599632935123</cdate>
+		<edate>1599632961787</edate>
+		<id>43</id>
 		<Action sr="act0" ve="7">
-			<code>322</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Tasker/backup/%DATE%TIME.xml</Str>
-			<Str sr="arg1" ve="3">hermes.the.11th@gmail.com</Str>
-			<Int sr="arg2" val="1"/>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUT_Workday</Str>
+			<Str sr="arg1" ve="3">false</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 	</Task>
 	<Task sr="task46">
@@ -2812,71 +2905,15 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<nme>mw_communication_ring_volume</nme>
 		</Img>
 	</Task>
-	<Task sr="task493">
-		<cdate>1592403895966</cdate>
-		<edate>1599950557140</edate>
-		<id>493</id>
-		<nme>AUT_SpotifyQueue</nme>
-		<Share sr="Share">
-			<d>Add songs to queue in Spotify</d>
-			<p>false</p>
-			<t></t>
-		</Share>
+	<Task sr="task497">
+		<cdate>1599425060714</cdate>
+		<edate>1600820127772</edate>
+		<id>497</id>
+		<nme>AUT_zzz_SetDefaults</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<label>Set client id</label>
-			<Str sr="arg0" ve="3">%client_id</Str>
-			<Str sr="arg1" ve="3">-</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<label>Set client secret</label>
-			<Str sr="arg0" ve="3">%client_secret</Str>
-			<Str sr="arg1" ve="3">-</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<label>Set song uri</label>
-			<Str sr="arg0" ve="3">%song_uri</Str>
-			<Str sr="arg1" ve="3">spotify:track:4NtUY5IGzHCaqfZemmAu56</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>351</code>
-			<label>Get authorization token</label>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_auth_headers
-Headers
-Use this in the HTTP Request action in the 'Headers' field to authenticate the request&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Str sr="arg2" ve="3">%client_id</Str>
-			<Str sr="arg3" ve="3">%client_secret</Str>
-			<Str sr="arg4" ve="3">https://accounts.spotify.com/authorize</Str>
-			<Str sr="arg5" ve="3">https://accounts.spotify.com/api/token</Str>
-			<Str sr="arg6" ve="3">user-modify-playback-state</Str>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="30"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act4" ve="7">
 			<code>339</code>
-			<label>Add song to queue</label>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_data
@@ -2895,331 +2932,263 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 				</Vals>
 			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
 			<Int sr="arg11" val="0"/>
-			<Str sr="arg2" ve="3">https://api.spotify.com/v1/me/player/queue</Str>
-			<Str sr="arg3" ve="3">%http_auth_headers</Str>
-			<Str sr="arg4" ve="3">uri:%song_uri</Str>
+			<Str sr="arg2" ve="3">https://raw.githubusercontent.com/pegasusict/AUtomaTISTIC/dev/json/AUtomaTISTIC_defaults.json</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<cls>com.spotify.music.MainActivity</cls>
-			<pkg>com.spotify.music</pkg>
-		</Img>
-	</Task>
-	<Task sr="task496">
-		<cdate>1599418077149</cdate>
-		<edate>1600688459507</edate>
-		<id>496</id>
-		<nme>AUT_Setup</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>300</code>
-			<label>check cfg file
-check profiles file
-  Parse cfg file
-  Parse profiles file
-if no cfg, load defaults and start wizard
-if no profiles, start wizard
-else start main menu
-
-
-save cfg file
-save profiles file</label>
+			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>368</code>
+			<code>417</code>
 			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pl_latitude
-1. Latitude
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%pl_coordinates
-Latitude and Longitude
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%pl_longitude
-2. Longitude
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%pl_map_url
-Google Maps URL
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%pl_radius
-Radius
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">0,0</Str>
-			<Int sr="arg4" val="0"/>
+			<Str sr="arg0" ve="3">%http_file_output</Str>
+			<Str sr="arg1" ve="3">%defaults</Str>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>1304982781</code>
+			<code>815</code>
 			<on>false</on>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<Dialog>List</Dialog>
-					<Dialog-type>java.lang.String</Dialog-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: List
-Title: Profiles
-Title Alignment: Left
-List Type: List
-Texts: %profile_names()
-Text Size: 20
-Image Width: 100
-Dim Background: true
-Top Margin: 16
-Bottom Margin: 16
-Bottom Buttons Top Margin: 16
-Bottom Buttons Bottom Margin: 16
-Separator: ,
-Command Variable: atcommand
-Cancelable: true
-Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
-					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
-number of the button that was pressed
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%atcommand
-Command
-Selected command&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%atimage
-Image
-Image from selected item&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%atposition
-Position
-Position that the selected item was on the list&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%attext
-Text
-Selected text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<parameters>{"commandSettings":{"commands":[],"longCommands":[]},"gridSettings":{},"imageSettings":{"imageSize":"100","images":[],"imagesRound":false},"listType":"0","advancedSettings":{"closeOnSelect":false,"multipleSelect":false,"outputVariableName":"atcommand","separator":",","triggerEvent":false,"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"texts":["%profile_names()"],"textSize":"20","useHtml":false},"title":"Profiles","titleAlignment":"0","generatedValues":{}}</parameters>
-					<parameters-type>java.lang.String</parameters-type>
-					<plugininstanceid>9bbd5d65-55c0-40a7-a2a4-e9600e4d124d</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
-			<Int sr="arg3" val="60"/>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">com.adguard.android</Str>
+			<Str sr="arg2" ve="3">%adguard_installed</Str>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>327</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%gd_account
-Account
-Account that was signed in to Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>1099157652</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<DeletePaths>&lt;null&gt;</DeletePaths>
-					<DeletePaths-type>java.lang.String</DeletePaths-type>
-					<DeleteValues>&lt;null&gt;</DeleteValues>
-					<DeleteValues-type>java.lang.String</DeleteValues-type>
-					<FilterField>&lt;null&gt;</FilterField>
-					<FilterField-type>java.lang.String</FilterField-type>
-					<FilterValye>&lt;null&gt;</FilterValye>
-					<FilterValye-type>java.lang.String</FilterValye-type>
-					<JsonAddToArrayKey>&lt;null&gt;</JsonAddToArrayKey>
-					<JsonAddToArrayKey-type>java.lang.String</JsonAddToArrayKey-type>
-					<JsonAddToArrayValues>%config</JsonAddToArrayValues>
-					<JsonAddToArrayValues-type>java.lang.String</JsonAddToArrayValues-type>
-					<JsonArrayClear>false</JsonArrayClear>
-					<JsonArrayClear-type>java.lang.Boolean</JsonArrayClear-type>
-					<JsonArrayObjectKeys>&lt;null&gt;</JsonArrayObjectKeys>
-					<JsonArrayObjectKeys-type>java.lang.String</JsonArrayObjectKeys-type>
-					<JsonArrayObjectValues>&lt;null&gt;</JsonArrayObjectValues>
-					<JsonArrayObjectValues-type>java.lang.String</JsonArrayObjectValues-type>
-					<JsonArrayObjectValuesSeparator>|</JsonArrayObjectValuesSeparator>
-					<JsonArrayObjectValuesSeparator-type>java.lang.String</JsonArrayObjectValuesSeparator-type>
-					<JsonInput>&lt;null&gt;</JsonInput>
-					<JsonInput-type>java.lang.String</JsonInput-type>
-					<JsonKeys>&lt;null&gt;</JsonKeys>
-					<JsonKeys-type>java.lang.String</JsonKeys-type>
-					<JsonResultPretty>true</JsonResultPretty>
-					<JsonResultPretty-type>java.lang.Boolean</JsonResultPretty-type>
-					<JsonResultVariable>config_json</JsonResultVariable>
-					<JsonResultVariable-type>java.lang.String</JsonResultVariable-type>
-					<JsonValues>&lt;null&gt;</JsonValues>
-					<JsonValues-type>java.lang.String</JsonValues-type>
-					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
-					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
-					<MatchesCaseInsensitive_delete>false</MatchesCaseInsensitive_delete>
-					<MatchesCaseInsensitive_delete-type>java.lang.Boolean</MatchesCaseInsensitive_delete-type>
-					<MatchesContainsAll>false</MatchesContainsAll>
-					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
-					<MatchesContainsAll_delete>false</MatchesContainsAll_delete>
-					<MatchesContainsAll_delete-type>java.lang.Boolean</MatchesContainsAll_delete-type>
-					<MatchesExact>false</MatchesExact>
-					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
-					<MatchesExact_delete>false</MatchesExact_delete>
-					<MatchesExact_delete-type>java.lang.Boolean</MatchesExact_delete-type>
-					<MatchesRegex>false</MatchesRegex>
-					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
-					<MatchesRegex_delete>false</MatchesRegex_delete>
-					<MatchesRegex_delete-type>java.lang.Boolean</MatchesRegex_delete-type>
-					<Separator>,</Separator>
-					<Separator-type>java.lang.String</Separator-type>
-					<UpdatePaths>&lt;null&gt;</UpdatePaths>
-					<UpdatePaths-type>java.lang.String</UpdatePaths-type>
-					<UpdateValues>&lt;null&gt;</UpdateValues>
-					<UpdateValues-type>java.lang.String</UpdateValues-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Separator: ,
-Prettify: true
-Add to Array Values: %config
-Arrays Separator: |</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%config_json
-Result Json
-Resulting Json that was written&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>JsonResultVariable Separator JsonAddToArrayValues JsonArrayObjectValuesSeparator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>8828f37c-fc98-44dd-ab1c-62ab033bed7a</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autotools.intent.IntentJsonWrite</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJsonWrite</Str>
-			<Int sr="arg3" val="60"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">%cfg_file</Str>
-			<Str sr="arg1" ve="3">%config_json</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>1099157652</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<DeletePaths>&lt;null&gt;</DeletePaths>
-					<DeletePaths-type>java.lang.String</DeletePaths-type>
-					<DeleteValues>&lt;null&gt;</DeleteValues>
-					<DeleteValues-type>java.lang.String</DeleteValues-type>
-					<FilterField>&lt;null&gt;</FilterField>
-					<FilterField-type>java.lang.String</FilterField-type>
-					<FilterValye>&lt;null&gt;</FilterValye>
-					<FilterValye-type>java.lang.String</FilterValye-type>
-					<JsonAddToArrayKey>&lt;null&gt;</JsonAddToArrayKey>
-					<JsonAddToArrayKey-type>java.lang.String</JsonAddToArrayKey-type>
-					<JsonAddToArrayValues>%profiles</JsonAddToArrayValues>
-					<JsonAddToArrayValues-type>java.lang.String</JsonAddToArrayValues-type>
-					<JsonArrayClear>false</JsonArrayClear>
-					<JsonArrayClear-type>java.lang.Boolean</JsonArrayClear-type>
-					<JsonArrayObjectKeys>&lt;null&gt;</JsonArrayObjectKeys>
-					<JsonArrayObjectKeys-type>java.lang.String</JsonArrayObjectKeys-type>
-					<JsonArrayObjectValues>&lt;null&gt;</JsonArrayObjectValues>
-					<JsonArrayObjectValues-type>java.lang.String</JsonArrayObjectValues-type>
-					<JsonArrayObjectValuesSeparator>|</JsonArrayObjectValuesSeparator>
-					<JsonArrayObjectValuesSeparator-type>java.lang.String</JsonArrayObjectValuesSeparator-type>
-					<JsonInput>&lt;null&gt;</JsonInput>
-					<JsonInput-type>java.lang.String</JsonInput-type>
-					<JsonKeys>&lt;null&gt;</JsonKeys>
-					<JsonKeys-type>java.lang.String</JsonKeys-type>
-					<JsonResultPretty>true</JsonResultPretty>
-					<JsonResultPretty-type>java.lang.Boolean</JsonResultPretty-type>
-					<JsonResultVariable>profiles_json</JsonResultVariable>
-					<JsonResultVariable-type>java.lang.String</JsonResultVariable-type>
-					<JsonValues>&lt;null&gt;</JsonValues>
-					<JsonValues-type>java.lang.String</JsonValues-type>
-					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
-					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
-					<MatchesCaseInsensitive_delete>false</MatchesCaseInsensitive_delete>
-					<MatchesCaseInsensitive_delete-type>java.lang.Boolean</MatchesCaseInsensitive_delete-type>
-					<MatchesContainsAll>false</MatchesContainsAll>
-					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
-					<MatchesContainsAll_delete>false</MatchesContainsAll_delete>
-					<MatchesContainsAll_delete-type>java.lang.Boolean</MatchesContainsAll_delete-type>
-					<MatchesExact>false</MatchesExact>
-					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
-					<MatchesExact_delete>false</MatchesExact_delete>
-					<MatchesExact_delete-type>java.lang.Boolean</MatchesExact_delete-type>
-					<MatchesRegex>false</MatchesRegex>
-					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
-					<MatchesRegex_delete>false</MatchesRegex_delete>
-					<MatchesRegex_delete-type>java.lang.Boolean</MatchesRegex_delete-type>
-					<Separator>,</Separator>
-					<Separator-type>java.lang.String</Separator-type>
-					<UpdatePaths>&lt;null&gt;</UpdatePaths>
-					<UpdatePaths-type>java.lang.String</UpdatePaths-type>
-					<UpdateValues>&lt;null&gt;</UpdateValues>
-					<UpdateValues-type>java.lang.String</UpdateValues-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Separator: ,
-Prettify: true
-Add to Array Values: %profiles
-Arrays Separator: |</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%profiles_json
-Result Json
-Resulting Json that was written&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>JsonResultVariable Separator JsonAddToArrayValues JsonArrayObjectValuesSeparator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>8828f37c-fc98-44dd-ab1c-62ab033bed7a</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autotools.intent.IntentJsonWrite</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJsonWrite</Str>
-			<Int sr="arg3" val="60"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">%profiles_file</Str>
-			<Str sr="arg1" ve="3">%profiles_json</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%AUT_CFG_Accounts_GDrive</Str>
-			<Str sr="arg1" ve="3">%gd_account</Str>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%AUT_CFG_AdguardPass</Str>
+			<Str sr="arg1" ve="3">false</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AUT_AdguardPass</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%adguard_installed</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%AUT_CFG_BackgroundProcessLimit</Str>
+			<Str sr="arg1" ve="3">50</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%AUT_CFG_BackgroundProcessLimit</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AUT_CFG_BackgroundProcessLimit</lhs>
+					<op>8</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%AUT_CFG_BackgroundProcessLimit</lhs>
+					<op>2</op>
+					<rhs>%NULL</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1446874931</code>
+			<on>false</on>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>&lt;null&gt;</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>0</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>https://raw.githubusercontent.com/pegasusict/AUtomaTISTIC/dev/json/AUtomaTISTIC_defaults.json</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>%result</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>false</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>aut_defaults{}</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Input Format: Json
+Json: https://raw.githubusercontent.com/pegasusict/AUtomaTISTIC/dev/json/AUtomaTISTIC_defaults.json
+Json Root Variable: %result
+Variable Name: aut_defaults{}
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%aut_defaults{}
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%result
+Json Root
+The whole json object that was used as input&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json VariableName Separator JsonRootVariable InputFormat plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>d47e5cf7-6d24-407d-ac64-560108388259</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>&lt;null&gt;</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>&lt;null&gt;</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>https://raw.githubusercontent.com/pegasusict/AUtomaTISTIC/dev/json/AUtomaTISTIC_defaults.json</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>%test</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>false</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName>%result</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Json: https://raw.githubusercontent.com/pegasusict/AUtomaTISTIC/dev/json/AUtomaTISTIC_defaults.json
+Json Root Variable: %test
+Variable Name: %result
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%result
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%test
+Json Root
+The whole json object that was used as input&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json VariableName Separator JsonRootVariable plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>218c7287-4cc4-4a62-bb08-4f0bd1909d46</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%test
+
+%LimitBackgroundProcesses
+
+%result</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>mw_editor_format_list_bulleted</nme>
+			<nme>mw_action_assignment_late</nme>
 		</Img>
 	</Task>
 	<Task sr="task498">
@@ -3796,27 +3765,6 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Str sr="arg2" ve="3">%profiles_array_length</Str>
 		</Action>
 	</Task>
-	<Task sr="task56">
-		<cdate>1576446801439</cdate>
-		<edate>1600376951435</edate>
-		<id>56</id>
-		<pri>1051</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">AUT_selectProfile</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">wakeup</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task561">
 		<cdate>1565183730483</cdate>
 		<edate>1600377404270</edate>
@@ -3938,298 +3886,51 @@ Even 1, 2, 3 or 4 are the only available options to be chosen from settings (Dev
 			<nme>mw_hardware_developer_board</nme>
 		</Img>
 	</Task>
-	<Task sr="task621">
-		<cdate>1582991150985</cdate>
-		<edate>1599425993784</edate>
-		<id>621</id>
-		<nme>AUT_GetConnection</nme>
-		<pri>100</pri>
-		<Share sr="Share">
-			<d>This task will allow you to check what type of network you are using to connect to the Internet: Bluetooth, Mobile Data (carrier), Ethernet, WiFi or WiMAX.</d>
-			<p>false</p>
-			<t></t>
-		</Share>
+	<Task sr="task67">
+		<cdate>1573773528083</cdate>
+		<edate>1576354218913</edate>
+		<id>67</id>
+		<pri>1051</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
-			<label>choose the method that works for you.
-true  = method 1
-false = method 2</label>
-			<Str sr="arg0" ve="3">%method1</Str>
+			<Str sr="arg0" ve="3">%PPA_phone_charging</Str>
+			<Str sr="arg1" ve="3">false</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task68">
+		<cdate>1573773585132</cdate>
+		<edate>1575234694393</edate>
+		<id>68</id>
+		<pri>25</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PPA_phone_charging</Str>
 			<Str sr="arg1" ve="3">true</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%method1</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Str sr="arg1" ve="3">wifi</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Str sr="arg1" ve="3">wimax</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>6</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Str sr="arg1" ve="3">bluetooth</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>7</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Str sr="arg1" ve="3">ethernet</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>9</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Str sr="arg1" ve="3">none</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>300</code>
-			<label>Result</label>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%result</Str>
-			<Str sr="arg1" ve="3">%type</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Result: %result</Str>
-			<Int sr="arg1" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%caller1</lhs>
-					<op>3</op>
-					<rhs>task=*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>300</code>
-			<label>Method (1)</label>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>341</code>
-			<label>none, mobile, wifi, mms, supl, dun, hipri, wimax, bluetooth, dummy, ethernet or vpn.</label>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%type</Str>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>300</code>
-			<label>Method (2)</label>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3">(ConnectivityManager) cm</Str>
-			<Str sr="arg1" ve="3">CONTEXT</Str>
-			<Str sr="arg2" ve="3">getSystemService
-{Object} (String)</Str>
-			<Str sr="arg3" ve="3">connectivity</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3">(NetworkInfo) ni</Str>
-			<Str sr="arg1" ve="3">cm</Str>
-			<Str sr="arg2" ve="3">getActiveNetworkInfo
-{NetworkInfo} ()</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>664</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Str sr="arg1" ve="3">ni</Str>
-			<Str sr="arg2" ve="3">getType
-{int} ()</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%type</Str>
-			<Str sr="arg1" ve="3">mobile</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_action_settings_input_antenna</nme>
-		</Img>
 	</Task>
-	<Task sr="task76">
-		<cdate>1551054705726</cdate>
-		<edate>1599425653827</edate>
-		<id>76</id>
-		<nme>AUT_IsMusicPlaying</nme>
-		<pri>100</pri>
-		<rty>1</rty>
-		<Share sr="Share">
-			<d>Check if your phone is playing any audio</d>
-			<p>false</p>
-			<t></t>
-		</Share>
+	<Task sr="task7">
+		<cdate>1576100549219</cdate>
+		<edate>1600379738927</edate>
+		<id>7</id>
+		<nme>AUT_SetVersion</nme>
+		<pri>25</pri>
 		<Action sr="act0" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3">manage</Str>
-			<Str sr="arg1" ve="3">CONTEXT</Str>
-			<Str sr="arg2" ve="3">getSystemService
-{Audio} (String)</Str>
-			<Str sr="arg3" ve="3">audio</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3">%aud</Str>
-			<Str sr="arg1" ve="3">manage</Str>
-			<Str sr="arg2" ve="3">isMusicActive {boolean} ()</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Audio playing = %aud</Str>
-			<Int sr="arg1" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%caller1</lhs>
-					<op>3</op>
-					<rhs>task=*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%aud</Str>
-			<Int sr="arg1" val="1"/>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUT_Version</Str>
+			<Str sr="arg1" ve="3">%AUT_VersionMajor.%AUT_VersionMinor.%AUT_VersionPatch%AUT_VersionRelease</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Img sr="icn" ve="2">
-			<nme>mw_image_musnote</nme>
-		</Img>
 	</Task>
 	<Task sr="task93">
 		<cdate>1575411158810</cdate>

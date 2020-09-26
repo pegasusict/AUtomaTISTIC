@@ -19,7 +19,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00f211f1-8a03-412b-a840-0d9d026c53ae" name="Default Changelist" comment="restructured files, further reorganised code, lot's more to do..." />
+    <list default="true" id="00f211f1-8a03-412b-a840-0d9d026c53ae" name="Default Changelist" comment="restructured files, further reorganised code, lot's more to do...">
+      <change afterPath="$PROJECT_DIR$/AUT_dev.prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AUtomaTISTIC_Backend.prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts/+Casio Logo - Copy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts/+CopperplateGothicBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts/007 GoldenEye.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts/01 Digit.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts/0zekton rg.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts/10.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts/1272254.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/fonts_bm/Metal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/images/.img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulWatches/scripts/u18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datadescr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/names.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUtomaTISTIC.prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AUtomaTISTIC.prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUtomaTISTIC_States.prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUtomaTISTIC_UI.prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AUtomaTISTIC_UI.prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUtomaTISTIC_WatchMaker_Plugin.prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUtomaTISTIC_Watch_Plugin.prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AUtomaTISTIC_Watch_Plugin.prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUtomaTISTIC_comms.prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AUtomaTISTIC_comms.prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2" beforeDir="false" afterPath="$PROJECT_DIR$/TooMuchInformation2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/fonts/RobotoCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/fonts/digital-7 (mono).ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/fonts/radiospacecond.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/img/.img10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/img/u1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/img/u1dim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/scripts/u1.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TooMuchInformation2/xml/u1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AUtomaTISTIC Watchplugin_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AUtomaTISTIC Watchplugin_profiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AUtomaTISTIC.backend_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AUtomaTISTIC.backend_profiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AUtomaTISTIC.profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AUtomaTISTIC.profiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AUtomaTISTIC.tasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AUtomaTISTIC.tasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AUtomaTISTIC_UI_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AUtomaTISTIC_UI_profiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AUtomaTISTIC_dev_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AUtomaTISTIC_dev_profiles.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +78,10 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1hn2WqaQnmj6SQ9wA60TlIJqnOM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,8 +89,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,6 +110,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600632570772</updated>
       <workItem from="1600632572895" duration="1122000" />
+      <workItem from="1600707546409" duration="1393000" />
+      <workItem from="1600850353609" duration="15573000" />
+      <workItem from="1601056867470" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="restructured files, further reorganised code, lot's more to do...">
       <created>1600633647412</created>
@@ -82,6 +137,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="restructured files, further reorganised code, lot's more to do..." />
@@ -92,13 +148,25 @@
       <screen x="29" y="0" width="1571" height="871" />
     </state>
     <state x="553" y="305" width="513" height="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/29.0.1571.871@29.0.1571.871" timestamp="1600633629593" />
-    <state x="348" y="70" key="SettingsEditor" timestamp="1600633608033">
+    <state x="348" y="70" key="SettingsEditor" timestamp="1600860085207">
       <screen x="29" y="0" width="1571" height="871" />
     </state>
-    <state x="348" y="70" key="SettingsEditor/29.0.1571.871@29.0.1571.871" timestamp="1600633608033" />
+    <state x="348" y="70" key="SettingsEditor/29.0.1571.871@29.0.1571.871" timestamp="1600860085207" />
     <state x="409" y="171" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600633660213">
       <screen x="29" y="0" width="1571" height="871" />
     </state>
     <state x="409" y="171" width="802" height="528" key="Vcs.Push.Dialog.v2/29.0.1571.871@29.0.1571.871" timestamp="1600633660213" />
+    <state x="619" y="96" width="383" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600864166848">
+      <screen x="29" y="0" width="1571" height="871" />
+    </state>
+    <state x="619" y="96" width="383" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/29.0.1571.871@29.0.1571.871" timestamp="1600864166848" />
+    <state x="599" y="353" width="430" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601055739106">
+      <screen x="29" y="0" width="1571" height="871" />
+    </state>
+    <state x="599" y="353" width="430" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/29.0.1571.871@29.0.1571.871" timestamp="1601055739106" />
+    <state x="505" y="0" width="618" height="870" key="find.popup" timestamp="1601061637826">
+      <screen x="29" y="0" width="1571" height="871" />
+    </state>
+    <state x="505" y="0" width="618" height="870" key="find.popup/29.0.1571.871@29.0.1571.871" timestamp="1601061637826" />
   </component>
 </project>

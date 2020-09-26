@@ -8,7 +8,7 @@
     <edate>1594879184185</edate>
     <cldm>60</cldm>
     <flags>27</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>1138194991</code>
       <Bundle sr="arg0">
@@ -58,7 +58,7 @@
     <cdate>1577316252273</cdate>
     <edate>1581811509126</edate>
     <flags>11</flags>
-    <pri>50</pri>
+    <pri>25</pri>
     <Event sr="con0" ve="2">
       <code>1861978578</code>
       <pri>0</pri>
@@ -208,7 +208,7 @@
     <id>4</id>
     <mid0>93</mid0>
     <nme>🚦⌚⚡█</nme>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>537168431</code>
       <Bundle sr="arg0">

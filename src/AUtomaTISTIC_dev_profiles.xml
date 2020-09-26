@@ -7,7 +7,7 @@
     <id>31</id>
     <mid0>32</mid0>
     <nme>AutoBackup</nme>
-    <pri>50</pri>
+    <pri>25</pri>
     <Event sr="con0" ve="2">
       <code>3050</code>
       <pri>0</pri>
@@ -24,7 +24,7 @@
     <id>6</id>
     <mid0>7</mid0>
     <nme>🧩🔢█</nme>
-    <pri>50</pri>
+    <pri>25</pri>
     <State sr="con0" ve="2">
       <code>165</code>
       <ConditionList sr="if">
