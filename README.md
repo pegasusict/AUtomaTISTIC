@@ -23,6 +23,7 @@ switches:
   * wifi connection,
   * gps location,
   * foreground app
+  
 actions:
   * change volume settings,
   * toggle DND mode,
